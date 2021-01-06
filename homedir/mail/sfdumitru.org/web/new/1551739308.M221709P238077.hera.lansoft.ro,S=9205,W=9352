@@ -1,0 +1,147 @@
+Return-Path: <sfdumitru_ny@yahoo.com>
+Delivered-To: web@sfdumitru.org
+Received: from hera.lansoft.ro
+	by hera.lansoft.ro with LMTP id ADESDaypfVz9oQMAqeyoAQ
+	for <web@sfdumitru.org>; Tue, 05 Mar 2019 00:41:48 +0200
+Return-path: <sfdumitru_ny@yahoo.com>
+Envelope-to: web@sfdumitru.org
+Delivery-date: Tue, 05 Mar 2019 00:41:48 +0200
+Received: from sonic302-22.consmr.mail.gq1.yahoo.com ([98.137.68.148]:43145)
+	by hera.lansoft.ro with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <sfdumitru_ny@yahoo.com>)
+	id 1h0wGr-0010nI-Un
+	for web@sfdumitru.org; Tue, 05 Mar 2019 00:41:48 +0200
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1551739234; bh=yWEVNkMTMnXz/YoJ0zu9C5dMlzmhD8oHgviTeYDDAxQ=; h=Date:From:To:In-Reply-To:References:Subject:From:Subject; b=oXeqWAmHqPbXotjC4INB+H1zGx8nyanhoMOEaDa+ue6ykK6qX+KR1LG/QwYhNyE2BKOJPmGsFQykqTxHAJLagdcioIJLa3I8/xtA1XVNzjr7BSUk/FW/kf1GwntFKJreou6y9gcoFaW0oJ4y7rd6zSgJ/u5OBxmuGOAzPs6DZh0YT4jaetA7WNz9QJwika+XYxfyF84G9ASGT7/V/M/e6aIQbig5/FgdgcWYhbmZWYEbOgaLqSVMQ+5BhquS/8vO9ZvzWVA/Z9kqjdyRSMYCslsaJi8XOBk5HYLwjPxtYrRTdcp5Hl/48W1fUte4JudvPE314RsAxhHLIXgkm+1CRA==
+X-YMail-OSG: iKiBEUMVM1ktZhfMkiB7VrvO3M0bnMIB6uejyNhjKkLnQ_tUnir4wmBnuUclEgO
+ e_JVYZxp2cY2qhYnu_HunU5FXNy1TbHyNW03LdIgjtpQCsFcIWa0sOHS3CFMdzGoU1tokjibY8eW
+ 3gSL_4fDdV9JswU2g4ujMr1KL0SdjNIt.Q9STzzQf8ZiSYCEUKB972phRDHSoENJ89sHyp2d9yGl
+ rydAoxfS03Iq2LhVsBKhvtFgK4_5ZCQMsB929_ELVctmaLnR1SbnLMRhzUgAst2L3L.vKCE2Cvot
+ Uxe9mznmyWFItrNCkzVRF9IOr11CVfjpfdaf_wtBk_mudWjOC0ylDv9V1NldauCdSuOSGOc7m.1N
+ d31e6kz0ZdlCkr842c3lF1thFqR3_D834hy0AC265_OsPPWHXXTs0GXfNWsmrA2QYFzz6D2ICAsF
+ px5YjnR2GqdhF4Njbx6RrWlPAcXxjbh1Ua2QkYEugnKhJOaAryhQrihPUU61IIyjARScHiwgmg4s
+ XCrm1TgxhycVmXNBBax3FT9vwzj5FEI8sJ4cOq6VXI3tv6AB4VuzWFB6uq8zn.lNXUjSTmTjdosz
+ ny52mTxFJ47NH350SMZVJwVAtz_MyP6pWSlW64Er84.B56kX8KojXHXZJq8VOUvTvM1VJSd2xgEn
+ yKwWIJ0TDqv2YEgeQ3qpZORfB5U1KWRRdNMhtATU9wR5CQCzFNg0w75RA1x2zaUeLhgSAhIdFtck
+ 3WV_R6owRewh5k26b1IJ5.hS...qFR.TzqPgniqoaSqavy_vGxV4MWOkdCinLKRuaqc9rvlkvgNS
+ SJHo08cXCwT6n2.OqtdNSL7Y3DMZET.UVrTyuf7mu_eFImqKs2LSwLDocNn8nTOVKgwASNkFacUD
+ 2CYEmjbEhZ7z1fktwNb9WXizUomvVUWTw5yl9l9daqOIKuZfYE_Rb3saZkgwxjFne4qEXKUZ6cKR
+ Vl4ilwz3W_uQLGjpk1qNrCL6pfSqyGto.5QAr6kIFFyEDIUWM0nMLdsjPMgMgwuAn1SQsUiQxBsl
+ ce2fVmcO73JO0SYoUR2ogPhRB0Csn.wwF9CFwvR4G9bbCDElve14uRrAWgT_dhuGEt0K2
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic302.consmr.mail.gq1.yahoo.com with HTTP; Mon, 4 Mar 2019 22:40:34 +0000
+Received: from sonic307-12.consmr.mail.ne1.yahoo.com (EHLO sonic307-12.consmr.mail.ne1.yahoo.com) ([66.163.190.35])
+          by smtp410.mail.gq1.yahoo.com (Oath Hermes SMTP Server) with ESMTPA ID 691237acfa578bf58ba25c79af4093d4
+          for <web@sfdumitru.org>;
+          Mon, 04 Mar 2019 22:40:32 +0000 (UTC)
+X-YMail-OSG: 2CaMURUVM1nQlBBJXH0lGBfU0qaV1vIMG43ThbKofmNwsoBAzo00y7iH3PsVVvh
+ hpV8vv0zsvmRmtTOj.Ztn8RajYPdwugBv1tzK55p0xKtM9i1Bc3VymJPKaaijVDFVUIpyGA.ntz9
+ lxVHkja5Ro3l1fVbzw.dnxiMOuH48EFBUMtvtQVUodEwxklV1QJKzFHVN1cfuk.46EKMaXEgWbyh
+ McLoxtrq0A.cL5WLZc1glk8dJPDz3.LFsFcah.NcRwTBkkTT0GlZ0ZoNS50R_81lZzRKWNji2NCF
+ 2t_qafqSgS04HPBvIp1hrJIJESBoYTCYE_Nz9H8VXD5Nl1oZlXeFNw2VtOBB8ssyKegsSeI7HKSv
+ jQyd.cuAn8ahkTbqEKLdT6bfauLGJZnT7o9ynlkOiJwk.N.FEE6bKnVKWNqALfH7oPj8H2wsv0HB
+ S8kAGIQ3GZdlxaORKIzOdVDJrDxAOYnarSriPLDviBzDgZfCi.XMUG9sAChQkZ7kMBemQzTehaY1
+ Bwbw_Z_w8f9nu1HTb2ooK1kKeJKYU8NrrkimAQHblgfkynekPfzalLliIMEDxgQ.a5FDntowsAYe
+ yOS0zfIsqlc6KGgicISU2OZnRjD_FXfqbELZl5w_3bB.dQPAEyCc_vHSXe806vSrSofMd_xDQ8za
+ RGoBKNXAyMi018iX8Dn_MmIP7FKm7SZjtFXTDElNlJ4zfgwZ1DKovaDu17wVmQFpDuD5CCw9xa9c
+ dY9d1cBpvqyjggN56V7MqbvtpJmYlHbxE03M_muUdJVtVR0DdyHUZRN7gYrLWRasbJAuAQJ_WMaJ
+ idScLCBGc3vDvc5dsRMjYkBj_q79pyy8a2tQky3cY4_IrREhDB8wAk8lr1tVTQZQwOY8Gzfa7T4N
+ Iu8QPz1bGQkg5pdAmFb91M7AZynfnAMOhBOEO3cLVKvegtNiOmkiNJyFnEZJ4oPgjXMCJpxgRDCm
+ 3f_gNb.X.hBMcBfEQQvJrrVUW1kTEA7DNgWlQRRuh3ECHwEUi5nWnAhLUSLHkRqyPws28w1Gjx4_
+ LZ6Xk8.i5VXV.Ih1albx0ROX9RkdTWt0QrhpMPUJH4dEa2u_gdtALl53U66wIQnjXKltqXcI-
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic307.consmr.mail.ne1.yahoo.com with HTTP; Mon, 4 Mar 2019 22:40:29 +0000
+Date: Mon, 4 Mar 2019 22:39:20 +0000 (UTC)
+From: victor temirov <sfdumitru_ny@yahoo.com>
+To: "St. Dumitru Monastery | Website" <web@sfdumitru.org>
+Message-ID: <1283826253.29195.1551739160674@mail.yahoo.com>
+In-Reply-To: <3f7bf4d3bc9331fd092a29418b80e283@www.sfdumitru.org>
+References: <3f7bf4d3bc9331fd092a29418b80e283@www.sfdumitru.org>
+Subject: Re: Mesaj nou de la
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_29194_393680093.1551739160673"
+X-Mailer: WebService/1.1.13212 YahooMailIosMobile Raven/44747 CFNetwork/976 Darwin/18.2.0
+Content-Length: 4397
+X-Spam-Status: No, score=
+X-Spam-Score: 
+X-Spam-Bar: 
+X-Ham-Report: 
+X-Spam-Flag: NO
+X-From-Rewrite: unmodified, no actual sender determined from check mail permissions
+
+------=_Part_29194_393680093.1551739160673
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Sigur, doamna Maria.
+
+
+Sent from Yahoo Mail for iPhone
+
+
+On Monday, March 4, 2019, 5:36 PM, St. Dumitru Monastery | Website <web@sfdumitru.org> wrote:
+
+
+| Name* | Maria Pusztay |
+| Email* | gircina@optimum.net |
+| Phone* | 2032477355 |
+| Message Subject* | rugaciune pentru Justin |
+| Message* | Binecuvantati Parinte,
+Ma numesc Maria si am o rugaminte la Sfiintia Voastra .Daca puteti sa-l pomeniti si pe baiatul meu la rugaciune pentru gasirea unui loc de munca .este in anul trei la facultate si este foarte important sa gaseasca un servici pentru vacanta de vara. Numele lui este JUSTIN. Multumesc si Sarut Mana, |
+
+
+
+
+
+------=_Part_29194_393680093.1551739160673
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><!--[=
+if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>=
+96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><bo=
+dy>
+Sigur, doamna Maria.<br><br><br><a href=3D"https://overview.mail.yahoo.com/=
+?.src=3DiOS">Sent from Yahoo Mail for iPhone</a><br><br><p class=3D"yahoo-q=
+uoted-begin" style=3D"font-size: 15px; color: #715FFA; padding-top: 15px; m=
+argin-top: 0">On Monday, March 4, 2019, 5:36 PM, St. Dumitru Monastery | We=
+bsite &lt;web@sfdumitru.org&gt; wrote:</p><blockquote class=3D"iosymail"><d=
+iv id=3D"yiv4250324212"><table style=3D"border-spacing:0;width:100%;border-=
+collapse:separate;border-color:#DDDDDD #DDDDDD #DDDDDD;border-radius:4px 4p=
+x 4px 4px;border-style:solid solid solid none;border-width:1px 1px 1px 0;">=
+<tbody><tr style=3D"background-color:#F6F6F6;"> <td style=3D"width:30%;font=
+-weight:bold;border-left:1px solid #DDDDDD;line-height:20px;padding:8px;tex=
+t-align:left;vertical-align:top;">Name<span style=3D"color:red;font-weight:=
+bold;margin:0 5px;">*</span></td><td style=3D"border-left:1px solid #DDDDDD=
+;line-height:20px;padding:8px;text-align:left;vertical-align:top;">Maria Pu=
+sztay</td></tr><tr style=3D"background-color:#FEFEFE;"> <td style=3D"width:=
+30%;font-weight:bold;border-left:1px solid #DDDDDD;line-height:20px;padding=
+:8px;text-align:left;vertical-align:top;">Email<span style=3D"color:red;fon=
+t-weight:bold;margin:0 5px;">*</span></td><td style=3D"border-left:1px soli=
+d #DDDDDD;line-height:20px;padding:8px;text-align:left;vertical-align:top;"=
+>gircina@optimum.net</td></tr><tr style=3D"background-color:#F6F6F6;"> <td =
+style=3D"width:30%;font-weight:bold;border-left:1px solid #DDDDDD;line-heig=
+ht:20px;padding:8px;text-align:left;vertical-align:top;">Phone<span style=
+=3D"color:red;font-weight:bold;margin:0 5px;">*</span></td><td style=3D"bor=
+der-left:1px solid #DDDDDD;line-height:20px;padding:8px;text-align:left;ver=
+tical-align:top;"><a dir=3D"ltr" href=3D"tel:2032477355" x-apple-data-detec=
+tors=3D"true" x-apple-data-detectors-type=3D"telephone" x-apple-data-detect=
+ors-result=3D"2">2032477355</a></td></tr><tr style=3D"background-color:#FEF=
+EFE;"> <td style=3D"width:30%;font-weight:bold;border-left:1px solid #DDDDD=
+D;line-height:20px;padding:8px;text-align:left;vertical-align:top;">Message=
+ Subject<span style=3D"color:red;font-weight:bold;margin:0 5px;">*</span></=
+td><td style=3D"border-left:1px solid #DDDDDD;line-height:20px;padding:8px;=
+text-align:left;vertical-align:top;">rugaciune pentru Justin</td></tr><tr s=
+tyle=3D"background-color:#F6F6F6;"> <td style=3D"width:30%;font-weight:bold=
+;border-left:1px solid #DDDDDD;line-height:20px;padding:8px;text-align:left=
+;vertical-align:top;">Message<span style=3D"color:red;font-weight:bold;marg=
+in:0 5px;">*</span></td><td style=3D"border-left:1px solid #DDDDDD;line-hei=
+ght:20px;padding:8px;text-align:left;vertical-align:top;">Binecuvantati Par=
+inte,
+<br>Ma numesc Maria si am o rugaminte la Sfiintia Voastra .Daca puteti sa-l=
+ pomeniti si pe baiatul meu la rugaciune pentru gasirea unui loc de munca .=
+este in anul  trei  la facultate si este foarte important sa gaseasca un se=
+rvici pentru vacanta de vara. Numele lui este JUSTIN. Multumesc si Sarut Ma=
+na,</td></tr></tbody></table></div><blockquote></blockquote></blockquote>
+</body></html>
+------=_Part_29194_393680093.1551739160673--

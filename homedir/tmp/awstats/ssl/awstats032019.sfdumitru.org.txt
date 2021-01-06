@@ -1,0 +1,532 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201903 will be lost/reset.
+# Last config file used to build this data file was /home/sfdumitru/tmp/awstats/ssl/awstats.sfdumitru.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2701                
+POS_VISITOR 9689                
+POS_DAY 13490               
+POS_DOMAIN 3533                
+POS_LOGIN 3957                
+POS_ROBOT 4112                
+POS_WORMS 4960                
+POS_EMAILSENDER 5091                
+POS_EMAILRECEIVER 5234                
+POS_SESSION 13817               
+POS_SIDER 14024               
+POS_FILETYPES 5369                
+POS_DOWNLOADS 5616                
+POS_OS 5664                
+POS_BROWSER 5961                
+POS_SCREENSIZE 7038                
+POS_UNKNOWNREFERER 7112                
+POS_UNKNOWNREFERERBROWSER 7414                
+POS_ORIGIN 7513                
+POS_SEREFERRALS 7656                
+POS_PAGEREFS 7900                
+POS_SEARCHWORDS 8392                
+POS_KEYWORDS 8589                
+POS_MISC 2364                
+POS_ERRORS 8675                
+POS_CLUSTER 3813                
+POS_SIDER_404 8789                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190401001736 1617 472953 9254012104897
+FirstTime 20190322064313
+LastTime 20190331231558
+LastUpdate 20190401072436 1617 0 1616 0 0
+TotalVisits 113                 
+TotalUnique 91                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 92                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 52 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 52 325 6546485 108 118 1767593
+1 43 320 5175053 59 71 711014
+2 31 177 3616310 22 58 229256
+3 11 112 2733783 30 35 199080
+4 17 194 3505097 58 69 243338
+5 6 37 954189 38 87 2165393
+6 3 3 31707 21 22 143457
+7 9 35 826111 38 53 238178
+8 19 171 2788262 42 50 228143
+9 9 56 508139 31 41 157151
+10 1 1 50553 23 39 135514
+11 5 21 104748 37 71 1235242
+12 2 2 49936 30 80 575297
+13 6 77 1959153 30 68 321734
+14 4 53 686337 27 41 183491
+15 23 182 3611804 31 41 108135
+16 4 57 764967 73 83 609395
+17 7 88 1542714 23 53 453840
+18 8 92 2168427 46 53 334481
+19 25 168 3719104 43 131 2002232
+20 67 1370 23016064 89 126 862842
+21 33 282 5407117 41 54 167525
+22 38 293 5188331 35 54 195610
+23 39 194 2781690 55 82 537105
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+us 296 2080 39964075
+ca 78 1374 22981394
+ro 43 531 9821819
+kr 20 167 1466490
+ru 7 29 240815
+mx 6 54 1193690
+cn 3 37 946951
+tr 2 2 13259
+in 2 31 945092
+fr 1 1 10594
+jp 1 1 49238
+gb 1 1 51332
+nl 1 1 51332
+gr 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+AhrefsBot/ 271 1621365 20190331231859 9
+bingpreview 205 5054447 20190331210925 0
+bot[\s_+:,\.\;\/\\-] 193 1637465 20190331201404 16
+Googlebot/ 139 1308704 20190331232922 15
+bingbot/ 126 993268 20190331202614 14
+YandexBot/ 84 394969 20190331105517 30
+Applebot/ 57 380169 20190331222312 19
+(firefox/)([0-9]\.|[0-1][0]\.) 52 1855549 20190331042939 1
+SeznamBot/ 22 113338 20190331132826 10
+Sogou[\x20]web[\x20]spider/ 14 151935 20190331211044 0
+Exabot/ 9 82480 20190331233038 4
+unknown 6 5190 20190331104431 6
+SemrushBot/ 4 1628 20190329194616 4
+Mail\.RU_Bot/ 3 13001 20190329204943 2
+SafeDNSBot 2 11678 20190324162518 1
+no_user_agent 1 49238 20190331090827 0
+CFNetwork 1 424 20190331004124 0
+java 1 0 20190331205638 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+html 196 1937469 0 0
+js 1540 11731092 0 0
+png 564 37096327 0 0
+gif 227 69683 0 0
+jpg 504 16208670 0 0
+css 1013 7383600 0 0
+woff 53 1271200 0 0
+Unknown 210 2024666 0 0
+php 3 13374 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+macosx12 1 1
+win8 23 1
+win7 216 27
+winxp 36 7
+macosx10 3 3
+macosx9 1 1
+Unknown 22 22
+winlong 236 25
+macosx 92 14
+linuxandroid 654 51
+win10 2042 172
+ios_iphone 598 73
+linux 303 48
+macosx6 1 1
+bsdfreebsd 1 1
+win8.1 73 7
+macosx11 8 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 51
+chrome50.0.2661.102 5 5
+chrome10.0.648.204 1 1
+chrome19.0.1042.0 1 1
+firefox29.0 1 1
+chrome63.0.3205.0 22 2
+chrome71.0.3578.99 31 3
+safari12.0.3 31 2
+chrome49.0.2623.75 1 1
+msie11.0 2 2
+msie9.0 3 3
+firefox49.0 1 1
+Unknown 3 3
+chrome73.0.3683.90 16 4
+safari 273 25
+chrome72.0.3626.109 54 6
+chrome34.0.1847.76 25 1
+firefox63.0 395 16
+chrome47.0.2526.83 1 1
+chrome52.0.2743.116 2 2
+firefox50.0 8 7
+chrome51.0.2704.103 2 2
+chrome61.0.3163.98 1 1
+chrome67.0.3396.99 32 3
+chrome40.0.2214.93 1 1
+firefox52.0 231 25
+safari10.0 33 1
+opera53.0.2907.99 1 1
+chrome66.0.3359.117 1 1
+chrome73.0.3683.86 493 64
+edge17 684 34
+chrome65.0.3325.181 118 30
+safari11.0 1 1
+chrome35.0.1916.153 1 1
+firefox66.0 94 25
+chrome63.0.3239.111 97 9
+safari12.0 451 59
+chrome45.0.2454.94 1 1
+firefox22.0 1 1
+msie6.0 1 1
+chrome73.0.3683.75 119 7
+msie7.0 36 2
+chrome72.0.3626.121 640 61
+chrome70.0.3538.102 263 11
+mozilla 21 21
+msie10.0 23 1
+firefox26.0 1 1
+opera51.0.2461.137246 30 2
+chrome67.0.3396.87 54 5
+chrome59.0.3071.86 1 1
+msie8.0 1 1
+firefox58.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_Firefox/26.0 20190327111451
+Mozilla/5.0_(compatible;_Daum/4.1;__http://cs.daum.net/faq/15/4118.html?faqId=28966) 20190331104432
+\ 20190331151257
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190329191408
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+\ 20190331151257
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 152 158
+From1 0 0
+From2 47 47
+From3 10 10
+From4 253 4095
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+www_google_com 42 42
+yandexru 1 1
+aolcom 1 1
+sogou 1 1
+ca_search_yahoo_com 1 1
+search_yahoo_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+https://lm.facebook.com 3 3
+https://www-joinmychurch-com.cdn.ampproject.org 2 2
+https://www.facebook.com 1 1
+http://www.crestinism-ortodox.com/orthodoxy/countries/usa/usmonasteries/ 1 1
+https://lm.facebook.com 1 1
+http://www.orthodox-christianity.org/orthodoxy/countries/usa/usmonasteries/2/ 1 1
+http://www.arec.ca/arec-romanian-community/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+www.sfdumitru.org 1
+site+www.sfdumitru.org 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+www.sfdumitru.org 2
+site 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+500 1 1853
+404 47 36994
+301 269 32701
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 14
+/index.php/ro///modules/mod_googlemapsapi/fm.php 1 -
+/index.php/ro///modules/mod_mapsgoogle/fm.php 1 -
+/sitemap.xml 1 -
+/apple-touch-icon-precomposed.png 6 -
+/apple-touch-icon.png 6 -
+/ads.txt 19 -
+/index.php/ro/ 1 https://www.sfdumitru.org/index.php/ro/
+/index.php/ro///modules/mod_joomlaapi/apisystem.php 1 -
+/index.php/ro///libraries/joomla/application/component/view-base64.php 1 -
+/index.php/en/paraclisul-sf-dimitrie-basarabov 1 -
+/index.php/ro/articole/35-informatii-utile 1 -
+/index.php/ro///administrator/dbapi.php 1 -
+/index.php/ro/robots.txt 1 -
+/.well-known/assetlinks.json 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 92
+167.114.90.33 55 1272 20526607 20190331205626
+99.96.68.73 31 174 2333159 20190330022056
+24.190.11.247 29 214 5151617 20190330210123
+66.61.108.15 25 231 3058438 20190331024326
+73.198.253.60 25 94 1326449 20190329014126
+138.197.6.2 21 33 251624 20190330234503
+203.133.168.54 20 167 1466490 20190331104432
+79.116.11.91 15 96 2237450 20190331223145
+99.141.152.217 13 43 1047771 20190331231558
+74.64.73.207 12 61 1359910 20190329003000
+68.194.77.118 12 113 2261256 20190326152555
+167.114.209.28 12 12 459367 20190329191409
+108.5.163.95 11 75 1812131 20190325022128
+70.106.196.218 10 100 2285278 20190327153351
+100.37.237.134 9 66 1074102 20190325050951
+209.112.1.186 8 58 1049904 20190326220329
+76.169.82.78 7 8 19928 20190330001115
+24.228.220.8 7 96 1490978 20190328045215
+184.74.151.135 6 36 977387 20190325202057
+24.184.88.146 6 70 1230412 20190323015648
+201.116.247.245 6 54 1193690 20190328185251
+67.243.106.71 5 35 975154 20190331200210
+109.166.139.134 5 63 1118633 20190328150847
+66.87.208.237 5 54 1052663 20190328233805
+18.144.47.109 5 5 11766 20190329213224
+185.4.65.44 1 1 51332 20190325020544
+104.248.7.232 1 1 10620 20190331071820
+188.25.130.16 4 4 43783 20190327222421
+54.153.108.248 2 22 171125 20190329213214
+54.67.104.189 1 1 0 20190330030446
+63.143.229.156 4 40 985446 20190325134021
+40.127.111.29 2 2 19332 20190327083701
+86.120.146.16 1 33 443963 20190322234800
+72.0.210.94 3 32 945516 20190327175552
+5.141.173.221 1 1 49238 20190326082820
+45.55.188.184 1 13 77661 20190331022249
+45.33.2.193 1 1 10620 20190327071502
+81.171.108.48 1 1 51332 20190324070824
+209.97.157.87 1 1 11271 20190325083726
+52.53.183.161 1 1 11271 20190323083010
+138.197.111.59 1 15 88125 20190325083950
+78.96.83.158 1 25 394463 20190326213145
+123.126.113.130 0 5 12963 
+185.86.164.103 2 2 13259 20190329172626
+213.233.85.86 1 1 13312 20190322064313
+67.240.59.183 1 25 395312 20190331013606
+40.77.192.118 1 1 10620 20190327091112
+108.56.204.195 3 40 975833 20190322224237
+188.27.242.236 1 25 394463 20190326145839
+60.139.88.126 1 1 49238 20190330092902
+178.138.32.25 3 31 943856 20190326084032
+73.138.66.70 2 30 943432 20190327003718
+178.128.229.77 1 1 0 20190327160501
+109.184.171.129 1 1 34425 20190323154553
+204.9.73.211 1 1 11271 20190322212002
+54.183.195.118 1 1 49238 20190329213205
+116.203.99.170 2 31 945092 20190327013125
+5.14.172.183 1 34 425694 20190322083532
+38.130.183.199 1 1 11283 20190325072739
+5.45.65.236 1 1 11271 20190324005704
+79.113.190.166 2 6 1128782 20190324074324
+95.220.195.2 1 23 145881 20190329034109
+138.197.96.201 1 13 77661 20190326163525
+86.125.238.219 1 33 424787 20190322172321
+138.197.13.231 1 15 88125 20190323115844
+86.126.5.153 2 2 21240 20190331151257
+123.126.68.138 2 31 923368 20190328043004
+159.203.92.176 1 13 77661 20190327074339
+112.5.248.152 1 1 10620 20190327045442
+172.56.29.33 4 70 1308343 20190324211937
+174.199.10.156 2 31 945092 20190331004123
+178.138.33.12 1 33 424787 20190324224503
+89.36.95.155 1 33 424807 20190322155958
+93.95.100.115 3 3 0 20190324111727
+178.138.32.105 1 25 373052 20190331201434
+205.153.155.81 1 1 11271 20190325072755
+54.193.2.170 1 1 0 20190329051137
+165.227.221.126 1 1 10620 20190326163428
+176.31.123.200 1 1 10594 20190327111451
+138.197.111.46 1 13 77661 20190331071935
+206.206.103.152 1 1 11272 20190325072735
+96.57.90.34 2 37 973707 20190323195056
+178.138.96.120 1 33 424808 20190322220129
+174.203.14.168 2 38 974737 20190324184011
+173.3.144.177 2 30 943432 20190329020146
+208.54.35.205 3 31 943856 20190325233031
+109.166.138.188 1 33 424787 20190323164206
+8.18.120.27 1 1 10620 20190325234708
+3.94.191.136 1 1 49238 20190329121046
+178.138.97.134 1 21 159152 20190325175145
+12.159.249.211 4 46 1005012 20190325221518
+71.234.126.195 3 33 953284 20190328052748
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20190322 11 209 3144475 9
+20190323 19 166 3368240 10
+20190324 32 302 6998753 10
+20190325 60 503 10399328 17
+20190326 26 230 4207754 8
+20190327 25 170 4015131 13
+20190328 32 367 6766535 7
+20190329 73 349 5547114 14
+20190330 85 425 5610729 10
+20190331 99 1589 27678022 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 84
+1h+ 1
+5mn-15mn 7
+30mn-1h 1
+15mn-30mn 4
+2mn-5mn 11
+30s-2mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 58
+/index.php/ro/ 175 1900205 88 59
+/media/jui/fonts/IcoMoon.woff 53 1271200 0 10
+/index.php/ro/program-religios 18 123648 1 3
+/index.php/ro/component/search/ 18 8773 1 6
+/index.php/ro/istoric 15 130033 1 2
+/index.php/ro/contact-form 15 182085 1 2
+/index.php/ro/galerie-foto 13 91325 0 1
+/index.php/ro/170-hramul-manastirii-sfantul-dimitrie-cel-nou-din-middletown-new-york 12 169484 2 3
+/index.php/ro/crestinismul 10 128266 1 2
+/index.php/ro/component/uniform/form 8 2330 0 1
+/index.php/en/photo-galery/category/1-hramul-manastirii-mai-2015 8 59319 0 0
+/index.php/ro/articole/34-abc-crestin/143-cand-putem-sa-ne-spovedim 8 63557 6 6
+/index.php/ro/donatii 7 47769 0 0
+/index.php/ro/169-hram-la-manastirea-romaneasca-sfantul-dimitrie-cel-nou-din-middletown-new-york 6 128033 0 2
+/index.php/ro/documente 6 38428 0 1
+/index.php/en/photo-galery/category/8-sfintire-pictura 6 36974 1 1
+/index.php/en/photo-galery 5 34520 0 0
+/index.php/ro/articole/35-informatii-utile/147-cine-ne-sprijina 4 55043 0 1
+/index.php/en/photo-galery/category/4-sfintirea-bisericii 4 29732 0 1
+/index.php/ro/168-hramul-manastirii-octombrie-2017 4 63668 0 0
+/index.php/en/articole/39-utile/144-secretul-spovedaniei 4 33042 4 4
+/index.php/ro/acatistul-sf-dimitrie-basarabov 3 39936 3 3
+/index.php/en/ 3 28491 0 0
+/index.php/ro/galerie-foto/category/12-hram-2018-oct 3 21942 0 0
+/index.php/ro/158-sfintirea-picturii-bisericii-manastirii 3 54613 0 0
+/index.php/en/donations 2 12704 0 0
+/index.php/en/documents 1 6278 0 0
+/index.php/ro/articole/34-abc-crestin/141-despre-colindei 2 32267 0 0
+/index.php/en/171-the-feast-day-of-saint-demetrios-the-new-monastery-middletown-new-york 1 10151 0 0
+/index.php/ro/articole/35-informatii-utile/149-randuieli-bisericesti 2 14360 0 0
+/index.php/en/contact 2 17083 0 0
+/index.php/ro/articole/35-informatii-utile/145-pr-arh-vasile-vasilachi 1 46086 0 0
+/index.php/en/sfintele-moaste 1 7680 1 1
+/index.php/ro/articole 1 6113 0 0
+/index.php/ro/hramuri/sfantul-dimitrie-basarabov 2 19990 0 0
+/index.php/ro/articole/35-informatii-utile/148-resurse-ortodoxe 1 6821 0 0
+/index.php/ro/166-sarbatoare-la-manastirea-sf-cuv-dimitrie-cel-nou 2 17705 0 0
+/index.php/ro/153-hramul-manastirii 1 7265 0 0
+/index.php/ro/articole/39-utile/142-de-ce-sa-ne-spovedim 1 7804 0 0
+/index.php/en/christianity 2 19954 0 0
+/index.php/ro/165-invitatie-la-hramul-manastirii 2 14108 0 0
+/index.php/ro/articole/39-utile 1 50793 1 1
+/index.php/en/component/uniform/form 2 626 0 1
+/index.php/ro/articole/35-informatii-utile/146-constructia-bisericii 2 30276 0 0
+/index.php/en/patrons 2 12724 0 0
+/index.php/en/history 1 6353 0 0
+/index.php/ro/galerie-foto/category/11-2018-05-15-hram-manastire 1 7230 0 0
+/index.php/ro/articole/34-abc-crestin/142-de-ce-sa-ne-spovedim 2 16282 1 0
+/index.php/ro/galerie-foto/category/4-sfintirea-bisericii 1 7234 0 0
+/index.php/ro/articole/34-abc-crestin/140-postul-nasterii-domnului 2 14410 0 0
+/index.php 1 115 0 0
+/index.php/ro/157-sfintirea-bisericii-manastirii 1 30182 0 1
+/index.php/en/services-schedule 2 12432 0 0
+/index.php/ro/abc/128-hramuri 1 6404 0 0
+/index.php/ro/articole/34-abc-crestin/144-secretul-spovedaniei 2 15750 0 0
+/index.php/ro/galerie-foto/category/8-sfintire-pictura 1 7199 0 0
+/administrator/index.php 2 13259 1 1
+/index.php/ro/hramuri/inaltarea-domnului 3 26655 0 0
+END_SIDER

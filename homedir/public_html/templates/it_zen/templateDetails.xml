@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>it_zen</name>
+	<version>1.0</version>
+	<creationDate>May 2015</creationDate>
+	<author>IceTheme</author>
+	<authorEmail>info@icetheme.com</authorEmail>
+	<copyright>Copyright (C) 2008 - 2015 IceTheme.com</copyright>
+	<license>GPL V2</license>
+	
+	<description>
+	<![CDATA[
+	<p class="alert alert-info lead">Calming and tranquil with an emphasis on whitespace and open design. The perfect Joomla Template in case you want to finish your next website with ease, plus its FREE!</p>
+	<ul class="nav nav-tabs nav-stacked">
+		<li><a target="_blank" href="http://www.icetheme.com/themes/it-zen">Template Page</a></li>
+		<li><a target="_blank" href="http://demo.icetheme.com/?template=it_zen">View Demo</a></li>
+		<li><a target="_blank" href="http://icetheme.com/forums">Get Support</a></li>
+	</ul>]]>
+	</description>
+	
+	<files>
+		<folder>assets</folder>
+		<folder>html</folder>
+		<folder>php</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions>
+		<position>responsivebar</position>
+		<position>topmenu</position>
+		<position>language</position>
+		<position>mainmenu</position>
+		<position>slideshow</position>
+		<position>breadcrumbs</position>
+		<position>promo</position>
+		<position>sidebar</position>
+		<position>tagline</position>
+		<position>showcase</position>
+		<position>testimonial</position>
+		<position>footer</position>
+		<position>footermenu</position>
+		<position>debug</position>
+	</positions>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_it_zen.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_it_zen.sys.ini</language>
+	</languages>
+	
+	<config>
+		
+		<fields name="params">
+		
+			<!-- General-->	
+			<fieldset name="general" label="General">
+				
+				 <field name="TemplateStyle" class="lof_box" type="list" default="style1" label="Default Template Style"  description="Select your default template style that you would like to use for your website, or Custom Style to specify your preferred color.">
+					<option value="style1">Style1 - Green</option>
+					<option value="style2">Style2 - Red</option>
+					<option value="style3">Style3 - Light Blue</option>
+					<option value="style4">Style4 - Dark Blue</option>	
+					<option value="style5">Style5 - Purple</option>
+					<option value="style6">Style6 - Grey</option>
+					<option value="custom_style">Custom Style (define below)</option>
+				</field>
+				
+				<field name="" type="note" class="alert" label="To specify your preferred color as the default Template Style, follow these steps:" description="1. Select Custom Style from the Default Template Style Parameter above &lt;br&gt; 2. Specify your desired Color from the Custom Color Parameter below &lt;br&gt; 3. Click the Green Save button above to save the changes &lt;br&gt; 4. Hit the Compile Less button below " />
+				
+				<field name="TemplateCustomColor" type="color" default="#48D1CC" label="Custom Color"	description="Enter the Hex Value of your preferred color, or use the color picker. Remember to Save the changes before your hit the Compile Button below" />
+				
+				<!-- Custom LESS Compiler -->
+				<fields name="params" addfieldpath="/templates/it_zen/php/params/" />
+				<field name="compile" type="compile" label="Compile LESS style" description="This will compile the LESS File to create the new CSS Custom Style which will be using the specified color above." />
+				<!--  End Custom LESS Compiler -->
+				
+				<field name="" type="spacer" default="" label="" description="" />
+				<field name="" type="spacer" default="" label="" description="" />
+				
+				
+				<field name="logo" type="media" default="" label="Site Logo" description="Select your website logo image from your computer and chose it as the default logo." />
+				
+				<field name="responsivebarlogo" type="media" default="" label="Site Logo (responsivebar)" description="Select your website logo image from your computer and chose it when the responsivebar on the left appear." />
+				
+				
+				<field 
+					name="sidebar_position" 
+					type="list" 
+					default="right" 
+					label="Sidebar Position"  
+					description="Whether to display the sidebar on the left of the website on on the right">
+						<option value="left">Left</option>
+						<option value="right">Right</option>
+				</field>	
+				
+				<field 
+					name="sidebar_span" 
+					type="list" 
+					default="normal" 
+					label="Sidebar Width"  
+					description="The width of the main sidebar. Normal is recommended. You can not chose the exact paramter as the template is based on a responsive grid (bootstrap framework)">
+						<option value="normal">Normal</option>
+						<option value="narrow">Narrow</option>
+				</field>	
+					
+				<field name="go2top" type="radio" class="btn-group" default="1" label="Go To Top Icon"  description="Would you like to enable a scrolling image on the bottom right of your website so that you users can scroll to top easily?" filter="int">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>	
+				
+				<field name="hidefrontpage" type="radio" class="btn-group" default="1" label="Hide Frontpage Content?"  description="Would you like to hide the frontpage view? (applicable only in home menu item)" filter="int">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				
+				<field name="it_params_welcome" type="radio" class="btn-group" default="1" label="Display Welcome Text"  description="Display an welcome to our website text to the registered users on the header" filter="int">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				
+				<field name="it_params_equalcols" type="hidden"  class="btn-group" default="1" label="Equal Columns" description="Make the content area appear with white background to have the same height as the sidebar" >
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				
+				<field name="showcase_image" type="media" default="" label="Showcase background Image" description="Select the background image that you would like to display on the Showcase area" />
+				
+				<field name="" type="spacer" default="" label="" description="" />
+				<field name="" type="note" class="alert alert-info" label="Advanced Settings" description="We reccomend that you dont change the following settings unless you are very sure for what you are doing" />
+				
+				<field name="responsive_template" type="radio"  class="btn-group" default="1" label="Enable Responsive?"  description="If you Enable this parameter you will have a Responsive template , which will fit in every screen resolution. Such as smartphone and tablets. (Yes is recommended)" filter="int">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				
+				<field name="advanced_bootstrap" type="radio"  class="btn-group" default="1" label="Enable Bootstrap?"  description="Normally this should be enabled as it is required for the website to operate normally. " filter="int">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				
+				<field name="advanced_animations" type="radio"  class="btn-group" default="1" label="Enable CSS3 Animations?"  description="Animations for some modules to fade when the page scrolls to that part of the page" filter="int">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				
+				<field name="icelogo" type="radio"  class="btn-group" default="1" label="IceTheme Logo?"  description="A small IceTheme logo on the footer to let you visitors know the quality of your website" filter="int">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+			</fieldset>
+			
+			
+			<!-- Offline Page -->
+			<fieldset name="offline" label="Offline Page">
+				
+				<field name="" type="note" class="alert" label="Offline Page - Enable/Disable" description="To enable or disable the offline page, go to System - Global Configuration - Site Settings." />
+				
+				<field name="offline_h2" type="text" default="Our Website is Coming Soon!" label="Page Heading" description="Enter the main heading for your Coming Soon page"/>
+				
+				<field name="offline_p" type="textarea" default="" label="Page Descrption" description="Enter some description for your website"/>
+				
+				<field name="" type="spacer" default="" label="" description="" />	
+				
+				<field name="offline_form" type="radio" default="1" class="btn-group" label="Enable Admin Login Form?" description="Would you like to enable the Login form so that Administrators can access the website. Guests and other users still will not be able to access your website" filter="int">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>				
+				
+				<field name="" type="spacer" default="" label="" description="" />	
+
+				 <field name="offline_count" type="radio" default="1" class="btn-group" label="Enable Countdown?"  description="Would you like to enable the animated jQuery countdown?. If set to yes enter the correct time below" filter="int">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				
+				<field name="offline_count_time" type="text" default="31 December 2013 12:00:00" class="btn-group" label="Countdown time"  description="Enter here the correct time format when your website will be online. E.g '31 December 2013 12:00:00'" filter="" />
+				
+				<field name="" type="spacer" default="" label="" description="" />	
+				
+				  <field name="offline_newsletter" label="Newsletter Code" description="Enter here your Newsletter code provided by the Newsleter company" 
+				  type="editor"
+				 editor="none"
+				 buttons="no"
+				 required="false" 
+				 filter="raw"
+				 rows="200"
+				 cols="80"
+				 default=""
+				 height="240"
+				 />
+				
+				<field name="" type="spacer" default="" label="" description="" />	
+				
+				<field name="offline_social" label="Social Media" description="Enter here your HTML code to generate the Social Icons" 
+					  type="editor"
+					 editor="none"
+					 buttons="no"
+					 required="false" 
+					 filter="raw"
+					 rows="300"
+					 cols="80"
+					 default=""
+					  height="140"
+					 />
+				
+			</fieldset>
+			
+			
+			<!-- Custom CSS -->	
+			<fieldset name="customcss" label="Custom CSS">
+			
+			<field
+				 name="custom_css_code"
+				 label="Custom CSS"
+				 description="You may enter here your Custom CSS code to overwrite the default CSS that we have added on the template. Also you may paste here CSS codes that our support team may have given to you."
+				 type="editor"
+				 editor="none"
+				 width="100%" 
+				 height="280" 
+				 buttons="no"
+				 required="false" 
+				 filter=""
+				 default="/* Enter Your CSS Code below  */"
+				 />
+			 
+			</fieldset>
+			
+			
+			
+				
+		
+		</fields>
+			
+	</config>
+	
+</extension>

@@ -1,0 +1,8 @@
+block_ip_in_addr
+check_ip_reverse_dns
+check_dynamic_reverse_dns
+valid_helo_domain
+require_full_addr
+valid_from_domain
+require_helo
+valid_ptr

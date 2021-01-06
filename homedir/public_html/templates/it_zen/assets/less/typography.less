@@ -1,0 +1,468 @@
+/***********************************************************************************************/
+/* GENERAL TYPOGRAPHY STYLES */
+/***********************************************************************************************/
+body {
+	color: @text_color;
+	font-family:@text_font;
+	line-height:22px;
+}
+
+p { 
+	margin-bottom:18px;
+	
+	&.no-margin {
+		margin:0;
+	}
+}
+
+.ice-headline,
+.componentheading, 
+h1,
+h2,
+h3, {
+	font-family: @heading_font;
+	color:@heading_color;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 50px;
+	margin-bottom: 5px;
+}
+
+
+a {
+	color:@link_color;
+	
+	&:hover {
+		color: darken(@link_color,10%);
+	}
+	
+	&:visited {
+		color: #883EBA;
+	}
+}
+
+.floatleft {
+	float:left;
+}
+
+.floatright {
+	float:right;
+}
+
+.clearleft {
+	clear:left;
+}
+
+.clearright {
+	clear:right;
+}
+
+.floatnone {
+	float:none;
+}
+.clearnone {
+	clear:none;
+}
+.clearboth {
+	clear:both;
+}
+.text-align-left{
+	text-align:left;
+}
+.text-align-right{
+	text-align:right;
+}
+
+
+.btn.icebtn,
+p.readmore a.btn {
+	position:relative;
+	background: none;
+	color: @text_color;
+	padding: 5px 16px;
+	box-shadow: none;
+	border: 1px solid;
+	border-color: lighten(@bg_primary,0%);
+	border-radius: 0;
+	.transition();
+	
+	&:hover {
+		-webkit-animation: BTN 1.5s infinite; 
+		-moz-animation:    BTN 1.5s infinite; 
+		-o-animation:      BTN 1.5s infinite; 
+		animation:         BTN 1.5s infinite; 
+	}
+}
+
+@-webkit-keyframes BTN {
+ 0%   { border-color: lighten(@bg_primary,0%); }
+ 50% { border-color:  darken(@bg_primary,12%); }
+ 100% { border-color: lighten(@bg_primary,0%); }
+}
+@-moz-keyframes BTN  {
+ 0%   { border-color: lighten(@bg_primary,0%); }
+ 50% { border-color:  darken(@bg_primary,12%); }
+ 100% { border-color: lighten(@bg_primary,0%); }
+}
+@-o-keyframes BTN  {
+   0%   { border-color: lighten(@bg_primary,0%); }
+ 50% { border-color:  darken(@bg_primary,12%); }
+ 100% { border-color: lighten(@bg_primary,0%); }
+}
+@keyframes BTN  {
+   0%   { border-color: lighten(@bg_primary,0%); }
+ 50% { border-color:  darken(@bg_primary,12%); }
+ 100% { border-color: lighten(@bg_primary,0%); }
+}		
+
+&.btn-large {
+	padding: 8px 20px 8px;
+	font-size: 16px;
+}
+
+
+.btn-primary:visited,
+.btn-info:visited,
+.btn-success:visited,	
+.btn-warning:visited,	
+.btn-danger:visited,	
+.btn-inverse:visited {
+	color:#fff;
+}
+
+input.btn.icebtn,
+button.btn.icebtn{
+}
+
+
+address {
+	margin-bottom:18px;
+	line-height:24px;
+}
+
+.componentheading {
+	font-size: 38.5px;
+	line-height: 44px;
+}
+	
+	
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	
+}
+		
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+	border-color: lighten(@bg_primary,0%);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px lighten(@bg_primary,45%);
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+}
+	
+		
+		
+/* Tooltips */
+.tooltip {
+	font-size:15px;
+	
+	&.in {
+		opacity:1!important;
+	}
+	
+	&.bottom .tooltip-arrow { 
+		border-bottom-color:lighten(@bg_primary,0%);
+	}
+	
+	&.bottom .tooltip-arrow {
+		 border-bottom-color:lighten(@bg_primary,0%);
+	}
+	
+	&.top .tooltip-arrow    { 
+		border-top-color:lighten(@bg_primary,0%);
+	}
+	
+	&.left .tooltip-arrow   { 
+		border-left-color:lighten(@bg_primary,0%);
+	}
+	
+	&.right .tooltip-arrow  { 
+		border-right-color:lighten(@bg_secondary,0%);
+	}
+
+	.tooltip-inner {
+		text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+		background:lighten(@bg_primary,0%);
+	}
+	
+}
+
+hr {
+}
+
+.well {
+}
+
+hr.sep {
+	border-top:none;
+	border-bottom:none;
+	#gradient .radial (darken(@bg_light,20%), #fff );
+	height: 1px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.ice-headline {
+	font-size: 3em;
+	text-align: center;}
+
+.ice-subheadline {
+	font-size: 1.1em;
+	text-align: center;
+	margin-top: -3px;
+	margin-bottom: 18px;
+	color: #888;}	
+
+span.notice-typo {
+	color: #888;}
+
+ul.ice-check li, 
+ul.ice-arrow li, 
+ul.ice-cross li,
+ul.ice-light li, 
+ul.ice-star li, 
+ul.ice-note li,
+ul.ice-check2 li,
+ul.ice-help li,
+ul.ice-info li {
+	list-style-type:none;
+	background-repeat: no-repeat; 
+	background-position: center left;
+	padding: 4px 0 3px 28px}
+	
+	ul.ice-check li {
+		background-image:url(../images/typo_check.png);}
+	ul.ice-arrow li { 
+		background-image:url(../images/typo_arrow.png);}
+	ul.ice-cross li { 
+		background-image:url(../images/typo_cross.png);}
+	ul.ice-light li { 
+		background-image:url(../images/typo_light.png);}
+	ul.ice-star li { 
+		background-image:url(../images/typo_star.png);}
+	ul.ice-note li { 
+		background-image:url(../images/typo_note.png);}	
+	ul.ice-check2 li { 
+		background-image:url(../images/typo_check2.png);}
+	ul.ice-help li { 
+		background-image:url(../images/typo_help.png);}
+	ul.ice-info li { 
+		background-image:url(../images/typo_info.png);}
+
+
+
+blockquote {
+	border:none;
+	text-align:left;
+	position:relative;
+	margin:10px 0;
+	padding-left:75px;
+	padding-right:75px;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size: 24px;
+	line-height: 40px;
+	font-family:"Coming Soon",Courier, monospace;
+
+	p {
+		margin-bottom: 0;
+		font-size:inherit;
+		font-weight: inherit;
+		line-height: inherit;
+	}
+	
+	&:before {
+		font-family:Georgia, "Times New Roman", Times, serif;
+		color:@grayLight;
+		content:open-quote;
+		font-size: 120px;
+		position: absolute;
+		top:55px;
+		left:10px;
+	}
+						
+	&:after {
+		font-family:Georgia, "Times New Roman", Times, serif;
+		color:@grayLight;
+		content:close-quote;
+		font-size: 120px;
+		position: absolute;
+		bottom:-5px;
+		right:15px;
+	}	
+}
+
+	
+.highlight {
+	font-style: italic;
+	color: darken(@bg_primary,10%);
+	background: none;
+	padding: 0!important;
+	font-weight: normal!important;
+}
+
+.dropcap {
+	display: block;
+	float: left;
+	font: 6.2em Georgia,"Times New Roman",Times,serif;
+	line-height:75%;
+	padding: 5px 14px 0 0;
+}
+
+pre {
+	border-radius:0;
+	padding-left: 32px;
+	border: 1px solid #9A9A9A;
+	border-left: 4px solid #33353A;
+	background: #FFFEF4;
+}
+
+.IceBlockTextLeft {
+	float: left;
+	text-align: left;
+	display: block;
+	font-size: 1.25em;
+	font-style: italic;
+	line-height: 1.7em;
+	padding: 30px;
+	width: 38%;
+}
+
+.IceBlockTextRight {
+	float: right;
+	text-align: right;
+	display: block;
+	font-size: 1.25em;
+	font-style: italic;
+	line-height: 1.7em;
+	padding: 30px;
+	width: 38%;
+}
+	
+	
+.ice-block1 {
+	padding: 10px;
+	border: 1px dashed #999;}
+	
+.ice-block2 {
+	padding: 10px;
+	background: #fff;
+	border: 1px dotted #999;}	
+
+.ice-block3 {
+	padding: 10px;
+	background: #FFFEF4;
+	border: 1px solid #EAE8CC;}	
+		
+.ice-block4 {
+	padding: 10px;
+	background: #222;
+	color: #ccc;
+	border: 1px solid #222;}
+	
+.ice-block5 {
+	padding: 10px;
+	background: #eee;
+	border: 1px solid #ccc;}	
+
+.ice-block6 {
+	padding: 10px;
+	background: #CF8080;
+	color: #fff;
+	border: 1px solid #CF8080;}
+
+
+div.success,
+p.success, 
+div.notice, 
+p.notice, 
+div.error,
+p.error {
+	padding: .6em 1em 0.6em 3.4em;
+	border: 1px solid #fff;
+	margin-bottom: 2em;
+}
+	
+	div.notice, p.notice {
+		color: #514721;
+		background: #FFF6BF url(../images/typo_note.png) no-repeat 10px center;
+		border: 1px solid #FFDE24;
+	}
+
+	div.success, p.success {
+		color: #264409;
+		background: #E6EFC2 url(../images/typo_success.png) no-repeat 10px center;
+		border: 1px solid #CEE086;
+	}
+		
+	div.error, p.error {
+		color: #8A1F11;
+		background: #FBE3E4 url(../images/typo_error.png) no-repeat 10px center;
+		border: 1px solid #F5B7B8;
+	}
+
+
+
+/* Social Icons Fonts 
+http://drinchev.github.io/monosocialiconsfont/
+----------------------*/
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, 
+a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+

@@ -1,0 +1,379 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202010 will be lost/reset.
+# Last config file used to build this data file was /home/sfdumitru/tmp/awstats/awstats.sfdumitru.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2676                
+POS_VISITOR 13611               
+POS_DAY 13790               
+POS_DOMAIN 3310                
+POS_LOGIN 3544                
+POS_ROBOT 3699                
+POS_WORMS 4324                
+POS_EMAILSENDER 4455                
+POS_EMAILRECEIVER 4598                
+POS_SESSION 13903               
+POS_SIDER 14049               
+POS_FILETYPES 4733                
+POS_DOWNLOADS 4839                
+POS_OS 4907                
+POS_BROWSER 5003                
+POS_SCREENSIZE 5101                
+POS_UNKNOWNREFERER 5175                
+POS_UNKNOWNREFERERBROWSER 5414                
+POS_ORIGIN 5496                
+POS_SEREFERRALS 5626                
+POS_PAGEREFS 5770                
+POS_SEARCHWORDS 5918                
+POS_KEYWORDS 6070                
+POS_MISC 2340                
+POS_ERRORS 6129                
+POS_CLUSTER 3400                
+POS_SIDER_404 6236                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201101003358 14 2316 12930437664143
+FirstTime 0
+LastTime 20201030231910
+LastUpdate 20201101141518 14 0 13 0 0
+TotalVisits 1                   
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 9 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 47 68 20278
+1 0 0 0 126 144 48729
+2 0 0 0 80 98 28060
+3 0 0 0 74 93 25721
+4 0 0 0 81 101 31676
+5 0 0 0 60 85 22997
+6 0 0 0 45 70 23259
+7 0 0 0 29 42 10527
+8 0 0 0 48 67 19794
+9 0 0 0 38 46 14177
+10 0 0 0 30 33 8899
+11 0 0 0 20 33 10983
+12 0 0 0 30 45 15012
+13 0 1 178 50 69 24615
+14 0 0 1730 47 58 23713
+15 0 0 0 48 82 34912
+16 0 0 0 28 54 22151
+17 0 0 0 37 59 18348
+18 0 1 4891 76 103 35151
+19 0 0 0 37 49 16608
+20 0 0 0 47 92 39278
+21 0 0 0 49 65 25432
+22 0 0 0 46 61 21808
+23 1 1 53 45 64 131671
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 1 2 231
+ru 0 1 4891
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bingbot/ 79 32153 20201031120919 79
+Googlebot/ 49 20727 20201031225613 49
+bot[\s_+:,\.\;\/\\-] 47 19129 20201030052455 47
+AhrefsBot/ 43 18189 20201031084141 43
+YandexBot/ 19 16435 20201029183231 19
+unknown 5 2951 20201030220157 5
+(firefox/)([0-9]\.|[0-1][0]\.) 2 1730 20201031010731 2
+Applebot/ 2 2431 20201018133157 1
+MojeekBot/ 1 407 20201013183633 1
+link 1 407 20201007051212 1
+SeznamBot/ 1 407 20201022071731 1
+facebookexternalhit/ 1 111132 20201003232648 0
+CCBot/ 1 423 20201018014845 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 1 53 0 0
+css 1 178 0 0
+js 1 4891 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 1 865
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+Unknown 2 1
+win8 1 0
+win10 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+chrome81.0.4044.122 1 0
+mozilla 2 1
+msie9.0 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_AhrefsBot/6.1;__http://ahrefs.com/robot/) 20201012141726
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20201030231910
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1 4
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 1213 304992
+404 202 139986
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 124
+/public/js/wind.js 1 http://www.sfdumitru.org/public/js/wind.js
+/javascripts/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin/FCKeditor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/admin/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/sitemap.xml 3 -
+/fckeditor/editor/filemanager/connectors/aspx/upload.aspx 1 -
+/administrator/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/donatorii.html 2 -
+/sites/all/libraries/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/editor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/wp-content/plugins/super-interactive-maps/js/docs.js 1 -
+/libraries/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/google35cb65e84c359a8b.html 1 -
+/kcfinder/browse.php 1 -
+/evenimente-news.html 2 -
+/scripts/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/administrator/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/wp-admin/ 1 http://sfdumitru.org/
+/plugins/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/plugins/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/apple-touch-icon-120x120.png 2 -
+/fckeditor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/data/admin/allowurl.txt 1 -
+/old/wp-admin/ 1 http://sfdumitru.org/
+/evenimente-2007.html 1 -
+/FCK/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/js/common.js 1 http://www.sfdumitru.org/js/common.js
+/plugins/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/e/admin/index.php 2 -
+/admin/login.php 1 -
+/js/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/albume.html 2 -
+/include/calendar/calendar-cn.js 1 http://www.sfdumitru.org/include/calendar/calendar-cn.js
+/assets/kcfinder/browse.php 1 -
+/fckeditor/editor/filemanager/filemanager/upload/asp/upload.asp 1 -
+/editor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-content/plugins/superstorefinder-wp/js/docs.js 1 -
+/sites/all/libraries/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/abc-ul_crestin.html 1 -
+/urllist.txt 5 -
+/xxxss 1 -
+/assets/fckeditor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/wp-content/plugins/superlogoshowcase-wp/js/docs.js 1 -
+/fckeditor/editor/filemanager/upload/asp/upload.asp 2 -
+/apple-touch-icon.png 2 -
+/plugins/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/sites/all/libraries/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/administrator/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/include/dialog/select_soft_post.php 1 -
+/libraries/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/istoric.html 2 -
+/wp/wp-admin/ 1 http://sfdumitru.org/
+/Vasile_Vasilachi.html 3 -
+/templates/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/admin/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/admin/fckeditor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin/FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/upload/php/upload.php 2 -
+/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/public/router.php 2 -
+/administrator/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/assets/ckeditor/kcfinder/browse.php 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/apple-touch-icon-120x120-precomposed.png 2 -
+/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/templates/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/js/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/fck/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/fck/editor/filemanager/upload/php/upload.php 1 -
+/javascript/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/js/comm.js 1 http://www.sfdumitru.org/js/comm.js
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/includes/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/editor/editor/filemanager/upload/php/upload.php 1 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/templates/admin/js/kcfinder/browse.php 1 -
+/includes/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/router.php 1 -
+/mambots/editors/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/libraries/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/wordpress/wp-admin/ 2 http://sfdumitru.org/
+/fckeditor/editor/filemanager/upload/lasso/upload.lasso 1 -
+/css/album.css 1 -
+/libraries/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin/kcfinder/browse.php 1 -
+/ads.txt 46 -
+/admin/FCKeditor/editor/filemanager/upload/asp/upload.asp 1 -
+/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/images/Plan_Pictura_web.jpg 1 -
+/scripts/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/FCKeditor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/javascript/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/js/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/FCK/editor/filemanager/upload/php/upload.php 1 -
+/includes/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/scripts/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/editor/filemanager/upload/php/upload.php 1 -
+/assets/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/editor/filemanager/upload/aspx/upload.aspx 1 -
+/Manastire%20Mt%20Hope%20NY_WebLarge.swf 2 -
+/apple-touch-icon-precomposed.png 2 -
+/fckeditor/editor/filemanager/connectors/cfm/upload.cfm 1 -
+/index.html 3 -
+/contact.html 5 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/fckeditor/editor/filemanager/upload/cfm/upload.cfm 1 -
+/sites/all/libraries/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/assets/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/mambots/editors/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/program.html 3 -
+/wp-login.php 3 -
+/scripts/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/includes/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/js/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/dede/login.php 1 -
+/config/AspCms_config.asp 1 -
+/utility/convert/source/d7.2_x1.5/readme.txt 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+66.249.92.55 1 1 53 20201030231910
+172.119.3.203 0 1 178 
+173.252.127.28 0 1 865 
+95.174.110.235 0 1 4891 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20201017 0 1 178 0
+20201018 0 1 4891 0
+20201030 1 1 53 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/google49dd84c82c958a49.html 1 53 1 1
+END_SIDER

@@ -1,0 +1,854 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202007 will be lost/reset.
+# Last config file used to build this data file was /home/sfdumitru/tmp/awstats/ssl/awstats.sfdumitru.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2699                
+POS_VISITOR 14198               
+POS_DAY 25921               
+POS_DOMAIN 3627                
+POS_LOGIN 4169                
+POS_ROBOT 4324                
+POS_WORMS 5222                
+POS_EMAILSENDER 5353                
+POS_EMAILRECEIVER 5496                
+POS_SESSION 26787               
+POS_SIDER 26997               
+POS_FILETYPES 5631                
+POS_DOWNLOADS 5898                
+POS_OS 5967                
+POS_BROWSER 6247                
+POS_SCREENSIZE 8048                
+POS_UNKNOWNREFERER 8122                
+POS_UNKNOWNREFERERBROWSER 8744                
+POS_ORIGIN 9081                
+POS_SEREFERRALS 9224                
+POS_PAGEREFS 9514                
+POS_SEARCHWORDS 9896                
+POS_KEYWORDS 10486               
+POS_MISC 2361                
+POS_ERRORS 10998               
+POS_CLUSTER 4025                
+POS_SIDER_404 11128               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200801001337 234 63724 10415582396992
+FirstTime 20200701020020
+LastTime 20200731233344
+LastUpdate 20200801152721 234 0 233 0 0
+TotalVisits 295                 
+TotalUnique 274                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 290                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 208 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 28 323 8042966 181 219 905820
+1 10 123 3109393 145 199 1084069
+2 64 471 12158994 190 253 1362139
+3 20 319 6865424 192 254 1284980
+4 12 161 6162557 218 283 1797327
+5 50 527 18915127 225 269 1376053
+6 34 291 7451688 227 288 1454881
+7 17 193 5618957 186 224 1398026
+8 8 63 965045 236 284 1475373
+9 9 32 461412 175 249 2232334
+10 25 369 8581165 203 321 1568091
+11 15 275 4998539 195 251 1006301
+12 34 309 5010575 162 199 978962
+13 27 300 6857907 164 205 927550
+14 9 107 2530764 171 211 856885
+15 35 374 7243676 178 226 1080656
+16 39 358 9557431 192 245 1077425
+17 17 324 6765261 206 253 1232815
+18 47 459 11627574 199 266 2081476
+19 35 178 5992754 188 267 1765796
+20 27 395 8575807 191 252 1189414
+21 53 608 15329921 250 341 2209529
+22 38 441 11983201 216 333 1790045
+23 62 541 12052389 182 234 1001483
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 21
+us 348 3094 95124055
+ro 225 3512 70344597
+ca 45 257 5699235
+my 18 88 1771539
+de 14 71 1152530
+ru 13 41 1499249
+gr 11 53 1449164
+ua 9 9 109935
+gb 6 125 2902740
+fr 6 75 1203957
+nl 3 3 68962
+cn 3 11 1615711
+it 3 74 1525008
+by 2 2 33738
+sa 2 2 17574
+be 2 48 788775
+cz 1 1 8787
+ie 1 24 394388
+dk 1 25 396047
+ip 1 1 8787
+no 1 25 742019
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+SemrushBot/ 1953 8664107 20200731233308 352
+AhrefsBot/ 846 3691769 20200731191338 33
+Googlebot/ 689 4844005 20200731230639 26
+bingbot/ 540 3545066 20200731171801 110
+bot[\s_+:,\.\;\/\\-] 418 2443535 20200731085022 46
+bingpreview 284 4648803 20200727102719 0
+Applebot/ 109 834993 20200731214801 20
+Mail\.RU_Bot/ 79 400947 20200731192739 31
+YandexBot/ 75 286711 20200731155149 35
+(firefox/)([0-9]\.|[0-1][0]\.) 55 1930342 20200725063618 0
+CFNetwork 36 14864 20200720061831 0
+facebookexternalhit/ 21 140341 20200731043404 0
+Sogou[\x20]web[\x20]spider/ 5 36482 20200728050339 1
+unknown 3 2137 20200724063939 3
+no_user_agent 3 131433 20200724090306 0
+360Spider 1 8787 20200721134613 0
+Python\-urllib/ 1 865 20200731225955 1
+[\s_+:,\.\;\/\\-]bot 1 43811 20200724100927 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+php 18 37892 0 0
+Unknown 417 3753791 0 0
+jpg 726 30603539 0 0
+woff 19 483056 0 0
+png 975 109885316 0 0
+gif 495 133928 0 0
+html 261 2407384 0 0
+css 2055 18975371 0 0
+svg 1 25018 0 0
+js 2574 20549772 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 2 1730
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+ios_ipad 60 4
+linuxandroid 3303 235
+winxp 53 5
+win7 188 27
+Unknown 66 36
+win10 1558 153
+winlong 1 0
+winunknown 12 12
+macosx12 176 13
+linux 434 75
+win8.1 28 4
+macosx10 2 2
+macosx 552 67
+ios_iphone 1085 81
+win8 25 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 81
+chrome74.0.3729.136 156 8
+firefox68.0 24 1
+chrome74.0.3729.169 12 5
+chrome79.0.3945.130 1 1
+safari13.1.1 992 72
+chrome81.0.4044.117 24 1
+firefox75.0 1 1
+chrome63.0.3239.84 41 3
+chrome41.0.2228.0 1 1
+chrome58.0.3029.110 2 2
+chrome49.0.2623.112 52 4
+edge16 2 2
+chrome78.0.3904.96 24 1
+chrome68.0.3440.106 3 3
+msie11.0 33 3
+chrome56.0.2896.3 2 2
+chrome71.0.3578.98 2 2
+chrome72.0.3626.121 24 1
+chrome83.0.4103.96 24 1
+safari12.1 1 1
+Unknown 17 14
+chrome67.0.3396.62 2 2
+chrome80.0.3987.162 24 1
+chrome66.0.3359.139 2 2
+chrome62.0.3202.84 1 1
+chrome51.0.2704.103 3 3
+chrome79.0.3945.93 24 1
+safari13.1 100 6
+firefox77.0 1 1
+opera54.0.2952.54 1 1
+chrome80.0.3987.87 25 1
+chrome66.0.3359.170 1 1
+chrome68.0.3398.0 1 1
+chrome69.0.3497.100 24 1
+chrome78.0.3904.108 28 2
+chrome75.0.3770.143 24 1
+chrome27.0.1453.93 1 1
+opera68.0.3618.173 25 1
+chrome79.0.3945.88 2 2
+opera54.0.2952.64 3 3
+chrome84.0.4147.89 1490 127
+chrome76.0.3809.71 28 1
+chrome67.0.3396.79 3 3
+safari12.1.2 79 4
+chrome59.0.3071.115 12 1
+msie7.0 1 0
+opera53.0.2907.68 1 1
+chrome75.0.3770.142 83 32
+safari11.0 1 1
+chrome83.0.4103.116 708 51
+safari13.0.5 24 1
+chrome49.0.2623.75 2 2
+firefox26.0 3 3
+safari13.0 1 1
+chrome83.0.4103.101 78 3
+chrome45.0.2454.101 2 2
+chrome43.0.2357.134 4 4
+chrome79.0.3945.136 387 20
+chrome83.0.4103.83 33 2
+safari8.0 1 1
+chrome81.0.4044.138 154 15
+chrome80.0.3987.0 50 1
+safari 239 23
+chrome81.0.4044.111 88 18
+safari13.1.2 164 26
+chrome38.0.2125.122 1 1
+mozilla 60 33
+chrome45.0.2454.94 1 1
+edge18 25 1
+chrome41.0.2226.0 1 1
+chrome79.0.3945.79 6 6
+chrome45.0.2454.84 1 1
+chrome83.0.4103.106 1355 93
+chrome84.0.4147.105 76 3
+opera68.0.3618.63 32 2
+chrome80.0.3987.99 50 4
+edge17 2 2
+edge12 1 1
+chrome76.0.3809.132 32 4
+firefox78.0 526 51
+chrome81.0.4044.122 8 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20200718215815
+Ruby 20200720133819
+Mozilla/5.0_Firefox/26.0 20200730153651
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20200723002531
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200714170050
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20200727211919
+Mozilla/4.0_(compatible;_ms-office) 20200725104515
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20200730002622
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Ruby 20200720133819
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20200730002622
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20200723002531
+Microsoft_Office_Word_2014 20200725104514
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 198 282
+From1 0 0
+From2 238 445
+From3 8 8
+From4 271 6808
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 9
+www_google_ro 27 45
+sogou 1 1
+bing 19 19
+www_google_co_uk 1 1
+www_google_ca 1 1
+www_google_com 186 375
+www_google_fr 1 1
+tbask 1 1
+duckduckgo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://l.facebook.com 3 3
+http://www.dorignacs.com 2 2
+http://www.foojo.net/blog/27081015/view/ 1 1
+http://www.pacobarrero.com/blog/27081015/view/ 1 1
+http://www.orthodox-christianity.org/orthodoxy/countries/usa/usmonasteries/2/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+amazon 1
+w1trwvjiwctxlbui0wuru9l5knzygizvuxj_18rmsmuen_wetpgxxsbeksmnkdtuidfejdyopgfzcgdltbwazdzl_hpwhtubezys0ewbkxouvw9leozeqiqvkhdzqrjiunazroysxrghkgp0jdnpvzsj9fihj_loxwk5h_qsyveswtvho7vtgg6dsdo4qde1mbnpkkdnoqbxc9oaokjoz61vwsbmwqii08ks3eoa6l2chae6aivrjafaiffxgcqm1iukela4o6p_kkxqq8nqbphcpf4vuysan89aqkrjtjzg7v7rx6sc0u01ncnxsalp44q7brqm3qslpjou9vx34w 1
+cand+te+spovedesti 1
+manastirea+sf+dumitru+middletown+ny 1
+site+www.sfdumitru.org 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 12
+ny 1
+site 1
+cand 1
+dumitru 1
+sf 1
+manastirea 1
+te 1
+w1trwvjiwctxlbui0wuru9l5knzygizvuxj_18rmsmuen_wetpgxxsbeksmnkdtuidfejdyopgfzcgdltbwazdzl_hpwhtubezys0ewbkxouvw9leozeqiqvkhdzqrjiunazroysxrghkgp0jdnpvzsj9fihj_loxwk5h_qsyveswtvho7vtgg6dsdo4qde1mbnpkkdnoqbxc9oaokjoz61vwsbmwqii08ks3eoa6l2chae6aivrjafaiffxgcqm1iukela4o6p_kkxqq8nqbphcpf4vuysan89aqkrjtjzg7v7rx6sc0u01ncnxsalp44q7brqm3qslpjou9vx34w 1
+amazon 1
+middletown 1
+spovedesti 1
+www.sfdumitru.org 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 15 977921
+303 6 120
+301 589 147594
+404 148 107328
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 54
+/index.php/ro/images/breadcrumbs_home.png 1 https://www.sfdumitru.org/index.php/ro/170-ips-parinte-nicolae-a-slujit-sf-liturghie-cu-ocazia-hramului-manastirii
+/components/admin.php 1 http://site.ru
+/index.php/ro/img.caption 1 -
+/index.php/ro//index.php/en/ 1 https://www.sfdumitru.org/index.php/ro/
+/index.php/ro/ 1 https://www.sfdumitru.org/index.php
+/plugins/system/jsnframework/assets/joomlashine/images/preloading.gif 2 -
+/administrator/modules/mod_login/index.php 1 http://site.ru
+/media/com_phocagallery/images/icon-info.gif 1 -
+/index.php/ro/articole/35-informatii-utile 1 -
+/index.php/ro/contact 3 -
+/cli/sidwso.php 1 http://site.ru
+/cache/simple.php5 1 http://site.ru
+/ads.txt 25 -
+/Vasile_Vasilachi.html 1 -
+/assets/global/plugins/plupload/examples/upload.php 1 http://www.google.com/
+/google35cb65e84c359a8b.html 1 -
+/sitemap.xml 2 -
+/styles/popup-pomo.php 1 http://site.ru
+/sl.php 1 http://site.ru
+/index.php/ro/a.style-switcher-link 1 -
+/templates/it_zen/assets/img/glyphicons-halflings.png 9 -
+/index.php/ro/component/phocagallery/ 2 -
+/index.php/ro/articole/images/breadcrumbs_home.png 1 https://www.sfdumitru.org/index.php/ro/articole/34-abc-crestin/144-secretul-spovedaniei
+/components/com_contact/views/contact/tmpl/controller.php 1 http://site.ru
+/index.php/ro/).appendTo( 1 -
+/plugins/system/iceshortcodes/images/iceshortcode.png 9 -
+/index.php/ro/articole/34-abc-crestin 1 -
+/.well-known/assetlinks.json 14 -
+/Good.php 1 http://site.ru
+/index.php/ro/radial-gradient(rgb(202,%20173,%20173),%20rgb(255,%20255,%20255)) 1 https://www.sfdumitru.org/index.php/ro/168-hramul-manastirii-octombrie-2017
+/templates/it_zen/assets/img/glyphicons-halflings-white.png 9 -
+/parseopml/popup-pomo.php 1 http://site.ru
+/templates/it_zen/assets/images/showcase_arrows.png 9 -
+/index.php/ro/hramuri/test 1 -
+/index.php/ro/articole/images/icon_search.png 1 https://www.sfdumitru.org/index.php/ro/articole/34-abc-crestin/144-secretul-spovedaniei
+//plugins/system/videobox/css/loading.gif 9 -
+/index.php/en/acatistul-sf-dimitrie-basarabov 3 -
+/index.php/ro/images/icons-32/icon-32-loading-circle.gif 1 https://www.sfdumitru.org/index.php/ro/contact-form
+/.wp-trc.php 1 http://site.ru
+/wp-back.php 1 http://site.ru
+/home/sfdumitru/public_html/ 3 -
+/freshrdp.com2.php 1 http://site.ru
+/promo1.png 1 -
+/cache/ups.php 1 http://site.ru
+/index.php/ro/hramuri 3 -
+/website 1 -
+/index.php/ro/images/icon_search.png 2 https://www.sfdumitru.org/index.php/ro/170-ips-parinte-nicolae-a-slujit-sf-liturghie-cu-ocazia-hramului-manastirii
+/index.php/ro/).addClass( 1 -
+/cache/list.php 1 http://site.ru
+/promo2.png 1 -
+/index.php/en/paraclisul-sf-dimitrie-basarabov 4 -
+/index.php/en/component/phocagallery/ 3 -
+/s.php.suspected 1 http://site.ru
+/cache/doc.php 1 http://site.ru
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 290
+109.96.220.203 38 114 2988393 20200725104515
+18.219.85.81 32 83 715406 20200731230053
+100.12.196.251 25 136 3615555 20200720025239
+118.100.113.162 18 88 1771539 20200716123053
+158.69.26.193 17 17 709229 20200714165903
+24.115.234.62 16 96 1816739 20200709134538
+108.24.133.186 14 122 3102540 20200720061830
+69.74.234.178 14 47 367336 20200715152624
+69.17.235.251 13 76 1759908 20200709213929
+108.52.162.106 12 76 1564890 20200720054716
+71.58.54.248 12 69 3166831 20200717195607
+24.46.224.186 11 114 4154000 20200718024942
+31.152.252.32 11 53 1449164 20200727060402
+184.181.102.162 10 148 4763868 20200719051436
+96.248.55.189 10 71 2081387 20200721055206
+146.199.166.166 10 155 2152110 20200727105745
+67.243.106.71 9 37 1381226 20200729215621
+173.68.63.39 9 147 4701364 20200719051318
+31.172.136.174 8 8 66124 20200722213817
+70.54.156.91 7 67 1931778 20200717001755
+172.119.3.203 7 8 15178 20200715180947
+69.112.232.105 7 85 2119205 20200721023742
+69.116.10.69 7 52 1931131 20200720065915
+86.120.248.78 7 31 438943 20200719235241
+131.220.6.156 6 6 52722 20200721164156
+184.101.192.236 5 39 1508680 20200727024755
+104.194.136.238 1 1 7580 20200713135408
+123.183.224.30 0 1 905 
+79.113.32.77 1 24 394388 20200704224519
+73.36.240.127 1 24 394387 20200725202226
+135.181.42.55 1 1 8787 20200716075951
+94.53.127.100 2 26 502461 20200727190322
+5.15.216.50 2 26 740956 20200710153146
+68.9.80.10 3 31 1333216 20200724045749
+5.13.139.96 1 25 396048 20200706171715
+183.36.114.119 0 1 199287 
+69.204.164.185 2 28 1315169 20200725160640
+37.251.220.49 1 24 394388 20200708205729
+86.122.140.174 1 24 394387 20200727203916
+82.77.194.42 1 26 736233 20200702150727
+85.208.21.170 2 2 17574 20200723002531
+107.77.225.6 3 31 1309112 20200719020751
+184.63.184.166 2 45 283515 20200717031051
+141.164.54.177 1 1 8787 20200722064748
+78.97.111.139 1 25 734573 20200714165405
+213.233.108.162 1 24 394387 20200726200240
+178.138.32.255 1 25 734573 20200713153451
+34.222.32.239 1 1 0 20200728055912
+84.232.142.52 1 29 455168 20200716162810
+213.233.85.231 1 27 1262914 20200703211703
+89.137.121.123 1 24 394387 20200715232428
+37.120.156.26 1 1 43811 20200716202123
+109.103.255.177 1 25 396894 20200708112938
+74.73.102.66 2 30 1325059 20200717015457
+62.231.76.233 2 25 402077 20200720131817
+82.76.248.117 1 24 394387 20200728101350
+78.85.130.69 1 1 43811 20200714072045
+80.214.155.97 1 24 394387 20200725180807
+172.102.198.141 1 1 8787 20200720105618
+52.28.236.88 1 1 87 20200727211919
+5.14.24.173 2 26 740956 20200712221652
+188.25.226.82 1 24 394387 20200719204805
+92.1.243.41 1 24 394387 20200725233147
+86.120.238.79 1 24 394498 20200730071524
+185.69.144.244 1 24 394387 20200729201741
+213.233.103.36 4 60 1578216 20200708203118
+24.184.88.184 3 45 1390261 20200717062112
+93.122.249.212 1 24 394388 20200711145808
+40.129.55.99 3 31 1349853 20200731204441
+78.151.100.239 1 24 394387 20200727002943
+109.166.130.230 1 24 394387 20200719112457
+73.238.136.186 2 29 1316829 20200715193013
+46.97.168.180 1 24 394388 20200711150232
+79.117.89.114 2 25 401882 20200726173510
+213.177.13.11 1 24 395234 20200730165918
+158.69.241.223 1 1 8787 20200722142431
+81.196.139.185 1 24 394387 20200730151547
+185.53.197.161 1 24 394387 20200718154423
+109.166.139.51 1 24 394388 20200709215541
+213.233.104.58 1 9 362175 20200720005147
+68.173.178.215 1 27 1314745 20200727165554
+91.77.238.123 2 2 33655 20200722205626
+77.4.6.105 1 24 394387 20200716174239
+66.220.149.20 0 1 865 
+175.44.42.220 1 1 8787 20200710184753
+93.202.244.77 1 1 8787 20200725120514
+94.109.91.226 1 24 394388 20200713154824
+82.137.8.233 1 24 394388 20200707212354
+87.20.56.202 1 25 734573 20200713205919
+188.24.89.26 2 25 401855 20200717001209
+109.102.111.51 1 1 8787 20200728173224
+77.81.103.56 1 24 394388 20200708230917
+5.12.109.1 1 24 394388 20200708105029
+98.113.93.70 6 55 1488048 20200712153004
+178.138.35.217 1 25 734573 20200727202343
+95.76.18.110 1 24 394388 20200703210244
+36.110.147.102 0 1 199287 
+188.26.135.23 1 24 394387 20200727034950
+183.36.114.173 0 1 209808 
+79.116.188.225 1 25 374561 20200726145625
+89.137.239.219 1 24 394388 20200713183719
+86.121.92.84 1 24 394387 20200726105108
+82.137.13.184 4 27 416791 20200728094935
+38.77.11.73 1 28 1316405 20200720185336
+178.138.32.240 1 24 394387 20200729235413
+188.27.131.166 1 1 0 20200710144928
+69.206.215.179 5 38 2254772 20200727072638
+93.122.251.15 1 24 394388 20200710055544
+78.159.113.196 3 3 77466 20200715121557
+149.20.246.190 2 21 169351 20200720125630
+46.97.168.224 1 24 394388 20200714165651
+79.115.141.68 1 25 396048 20200705132920
+82.78.134.139 1 23 184579 20200725233747
+178.138.33.81 1 24 395234 20200713035912
+183.36.114.146 0 1 359791 
+109.166.137.220 3 26 409434 20200721153338
+188.25.100.21 1 25 396158 20200726210136
+96.242.164.133 2 54 666753 20200720214734
+49.7.21.133 1 1 8787 20200728053906
+178.138.34.35 2 25 401857 20200709184747
+109.166.133.252 1 24 395234 20200714215642
+5.12.118.131 1 24 394387 20200720133900
+89.208.29.29 1 1 8787 20200720033554
+86.120.251.197 1 24 394388 20200705174833
+24.44.214.110 2 28 1315169 20200715134205
+172.56.22.29 1 27 1314745 20200726043801
+77.7.110.34 2 25 401857 20200710215929
+109.166.128.192 1 24 394388 20200702130825
+199.30.228.134 0 3 62012 
+213.177.29.106 1 25 396047 20200720114909
+37.251.221.76 1 24 394387 20200721200036
+178.138.33.78 1 24 394388 20200710163622
+67.245.30.66 1 26 1115458 20200729231457
+77.247.178.182 3 3 68962 20200726024351
+86.121.203.149 1 24 394499 20200706233502
+94.23.58.212 1 1 7579 20200720111906
+109.98.106.237 1 24 394388 20200714204929
+109.103.218.183 2 26 403515 20200726124951
+213.233.103.173 1 24 394388 20200714120031
+79.113.189.8 1 25 734573 20200725223839
+46.97.169.138 3 5 20728 20200703212233
+198.46.101.20 3 33 1808783 20200715103712
+62.231.120.5 1 24 394388 20200711070900
+34.221.99.234 1 1 8787 20200723142235
+178.32.200.168 1 1 6383 20200730153651
+46.97.169.236 1 24 394387 20200719070702
+66.220.149.26 0 1 865 
+188.173.170.32 1 25 396048 20200704062201
+86.120.129.105 1 25 395461 20200728230306
+185.53.197.228 1 29 455168 20200716125241
+51.179.98.216 1 25 396048 20200711233750
+174.198.16.236 1 27 1314745 20200726212125
+188.27.146.56 2 26 740956 20200716231948
+178.155.129.227 1 25 396047 20200723070705
+82.76.49.186 1 24 394387 20200722072728
+213.233.110.48 1 24 394387 20200720214534
+82.137.10.184 1 24 394387 20200730164153
+86.120.74.7 2 35 493371 20200726083058
+109.98.116.139 1 25 432529 20200714001548
+79.118.132.153 1 25 398224 20200727132343
+213.233.110.137 1 24 394387 20200728171736
+37.162.236.186 1 24 394387 20200730184154
+66.249.89.74 1 1 8787 20200718215815
+92.81.181.11 1 25 398224 20200728234401
+86.124.137.252 1 24 394387 20200720000219
+86.122.24.99 2 32 803397 20200715205321
+172.58.227.44 2 28 1315169 20200724051900
+213.233.103.119 1 24 394387 20200731175056
+89.136.113.130 1 24 394388 20200713122439
+178.138.34.74 1 24 396566 20200704133215
+185.53.198.35 3 26 409323 20200725081840
+95.46.198.25 1 1 8787 20200718025434
+23.95.81.153 1 1 8787 20200724211331
+141.164.47.56 1 1 8787 20200714101754
+79.115.8.133 1 25 396047 20200722111130
+184.102.120.145 3 31 1349853 20200726145406
+199.30.228.129 0 4 215037 
+92.80.249.210 1 25 398224 20200723205949
+213.233.108.19 1 27 1314745 20200703105836
+93.122.248.191 1 24 394388 20200708061122
+46.97.169.215 1 24 394388 20200712090409
+82.137.14.93 1 24 394388 20200702173733
+89.149.34.194 1 25 398224 20200716105648
+79.119.7.165 3 27 387595 20200703162401
+5.14.12.64 1 24 394387 20200716101728
+148.74.147.130 5 5 36782 20200719020959
+82.76.203.134 6 58 2114580 20200727221843
+79.117.227.24 1 24 394388 20200705150923
+46.97.169.36 1 24 394387 20200728234852
+213.233.110.57 1 24 395234 20200726180907
+51.77.129.159 1 28 1316405 20200714170048
+85.9.20.139 2 2 18279 20200730191247
+109.102.191.77 1 25 396047 20200720163509
+68.96.87.139 2 29 1316829 20200731075350
+82.76.192.66 1 24 394387 20200729185554
+157.52.227.202 2 2 17574 20200719051342
+109.140.183.205 1 24 394387 20200729205019
+176.159.66.220 1 24 394387 20200730120758
+81.196.241.71 1 24 394387 20200717222428
+183.36.114.89 0 1 359791 
+172.14.54.150 1 28 1316405 20200710214312
+109.166.129.225 1 24 394388 20200704021348
+183.36.114.181 0 1 209808 
+46.56.69.9 2 2 33738 20200730083256
+86.1.50.100 1 24 394387 20200725185748
+86.123.229.188 1 24 394388 20200704151957
+93.116.221.242 1 29 455168 20200719185630
+65.154.226.109 1 28 1316405 20200728220953
+93.159.230.28 1 1 8787 20200706033551
+174.242.140.116 1 27 1314745 20200713184028
+109.102.5.174 1 24 394388 20200715111227
+46.97.168.197 4 58 2647961 20200727235535
+46.97.169.101 1 27 1314745 20200702133052
+213.233.110.80 1 24 394388 20200707123333
+173.63.70.206 1 1 8787 20200712000750
+47.144.207.134 6 95 1280746 20200711030859
+188.208.134.209 2 26 403626 20200721113057
+174.196.150.160 4 32 1340795 20200718003432
+199.30.228.135 0 4 377574 
+151.138.13.148 2 2 17574 20200721095019
+104.227.208.18 0 1 21984 
+209.208.110.185 1 1 8787 20200710122951
+71.105.25.152 6 71 1731438 20200722224930
+69.204.33.196 6 34 1349067 20200712055546
+95.76.3.5 1 29 455168 20200717183637
+151.19.93.133 1 24 394387 20200731185004
+148.75.184.193 4 82 2866800 20200729215509
+24.190.11.247 3 80 2856353 20200719035942
+78.97.227.50 1 24 394388 20200707032314
+109.96.213.57 1 24 394388 20200704231705
+104.227.65.117 1 20 144024 20200720125621
+34.204.189.189 4 4 35148 20200715094740
+109.102.111.58 1 1 8787 20200726204014
+73.226.176.44 6 84 2293014 20200717004924
+72.195.144.208 1 1 8787 20200709220915
+46.97.168.215 1 24 394387 20200725212439
+82.137.8.203 1 27 1314745 20200721213530
+109.102.111.44 1 1 8787 20200707234134
+82.78.135.51 1 24 394387 20200723085713
+188.26.174.7 1 24 394387 20200722223301
+99.123.158.0 3 31 1351686 20200727220220
+199.30.228.128 0 4 365579 
+174.222.5.9 2 30 1317859 20200724043123
+46.97.169.6 1 24 394387 20200715194822
+82.78.203.188 1 25 396894 20200720114025
+109.166.128.81 1 1 8714 20200701020020
+92.82.173.132 1 24 394387 20200718112217
+82.137.15.77 1 24 394387 20200721212926
+183.36.114.174 0 1 50673 
+46.97.168.210 1 27 1314745 20200708181039
+82.137.11.54 1 24 394388 20200703233252
+199.30.228.132 1 8 68477 20200730101317
+188.27.129.170 1 29 455168 20200716000259
+79.119.153.248 1 24 394387 20200729155728
+109.166.138.58 1 24 394387 20200720125130
+31.131.217.50 6 34 1351611 20200717192056
+178.138.32.230 2 25 401855 20200719163531
+82.76.47.60 1 24 395234 20200703225210
+86.120.52.163 1 24 394387 20200723175842
+213.233.104.73 1 24 394388 20200705114301
+109.166.138.219 1 1 7468 20200724230728
+206.176.154.173 1 29 456015 20200722035817
+89.36.224.252 1 25 396159 20200712223839
+109.189.233.64 1 25 742019 20200719174631
+46.33.59.170 1 1 43811 20200722020639
+81.196.3.50 1 25 742019 20200726024307
+109.166.136.102 1 24 394388 20200704143712
+216.218.191.226 1 50 1005592 20200716044433
+185.130.184.212 1 1 8787 20200709081006
+88.80.59.154 1 1 43811 20200723060242
+51.158.169.206 1 1 8787 20200730214553
+173.71.125.137 2 28 1323532 20200713022813
+107.77.223.26 4 52 1448274 20200711224600
+213.239.193.124 1 12 217311 20200709235355
+45.86.203.106 3 3 77466 20200711202711
+80.233.52.175 1 24 394388 20200712174635
+2607:fb90:7b0d:fc0f:e460:eb64:ad80:4481 1 1 8787 20200724052748
+67.189.179.200 2 29 1341199 20200710054635
+23.83.90.12 1 1 8715 20200724211336
+73.109.92.6 4 52 1423902 20200718111630
+183.253.80.105 1 1 8787 20200724224807
+199.30.228.133 0 5 205927 
+213.233.110.8 4 32 1534534 20200708233101
+172.58.228.255 1 16 48207 20200713021333
+188.25.17.134 1 26 743679 20200730184903
+5.196.80.103 1 1 6834 20200720092353
+188.24.234.114 1 1 0 20200730171617
+157.245.90.36 1 1 8787 20200731233344
+216.218.141.230 1 1 35955 20200716044431
+46.97.169.188 1 24 395234 20200709160254
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200701 1 1 8714 1
+20200702 4 101 2839754 4
+20200703 11 158 4169992 7
+20200704 7 169 2764554 7
+20200705 4 97 1579212 4
+20200706 3 50 799334 3
+20200707 5 97 1445709 5
+20200708 14 240 6401941 8
+20200709 44 297 6869712 10
+20200710 12 159 4606767 9
+20200711 17 247 4385698 7
+20200712 19 216 6086538 8
+20200713 11 217 5163096 11
+20200714 27 194 4832519 11
+20200715 47 313 8988549 12
+20200716 30 327 6159142 12
+20200717 36 416 11144352 12
+20200718 15 165 4922731 7
+20200719 54 633 18699297 16
+20200720 73 685 14329576 24
+20200721 27 285 7134745 9
+20200722 23 186 3533438 10
+20200723 11 133 2986433 8
+20200724 47 205 6979607 9
+20200725 17 251 5016501 12
+20200726 20 297 7678045 14
+20200727 52 579 16434553 17
+20200728 10 161 4908468 10
+20200729 19 265 7335419 9
+20200730 15 205 4474482 13
+20200731 40 192 4179649 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 14
+1h+ 1
+30mn-1h 1
+30s-2mn 27
+2mn-5mn 13
+15mn-30mn 2
+0s-30s 237
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 62
+/index.php/ro/ 222 2294273 122 81
+/index.php/ro/articole/34-abc-crestin/143-cand-putem-sa-ne-spovedim 122 922977 110 109
+/index.php/ro/istoric 30 249450 10 16
+/index.php/ro/component/search/ 28 24001 0 8
+/index.php/ro/contact-form 23 349296 5 3
+/index.php/ro/program-religios 22 142604 1 5
+/index.php/ro/galerie-foto 19 153595 0 1
+/media/jui/fonts/IcoMoon.woff 19 483056 0 3
+/index.php/ro/articole/34-abc-crestin/144-secretul-spovedaniei 17 128846 9 11
+/index.php/ro/165-invitatie-la-hramul-manastirii 16 95745 13 13
+/index.php/en/174-feast-day-at-st-dimitrios-the-new-romanian-monastery-of-middletown-new-york 12 107133 1 0
+/index.php/ro/173-hram-la-manastirea-romaneasca-sfantul-dimitrie-cel-nou-din-middletown-new-york-2 11 137721 0 1
+/index.php/ro/component/uniform/form 11 3542 0 4
+/index.php/ro/hramuri/sfantul-dimitrie-basarabov 10 96454 5 6
+/index.php/en/ 10 86890 0 1
+/index.php/ro/crestinismul 8 80488 0 0
+/index.php/ro/donatii 8 50904 0 1
+/administrator/index.php 7 24674 0 1
+/index.php/ro/articole/35-informatii-utile/145-pr-arh-vasile-vasilachi 6 341514 2 2
+/index.php/en/services-schedule 6 35682 1 2
+/index.php 6 879 0 5
+/index.php/ro/articole/35-informatii-utile/146-constructia-bisericii 6 54758 0 0
+/index.php/en/167-feast-day-at-st-dimitrios-the-new-monastery 6 48719 0 1
+/index.php/ro/documente 6 36760 0 0
+/administrator/components/com_joomlaupdate/restore.php 5 12339 0 0
+/index.php/ro/184 1 35307 1 0
+/index.php/en/documents 2 12004 0 0
+/index.php/en/contact 2 17111 1 0
+/index.php/ro/documente/documente-oficiale 2 12175 0 0
+/index.php/en/christianity 2 19232 0 0
+/index.php/ro/galerie-foto/category/14-2019-hram-toamna 4 28257 0 1
+/index.php/ro/articole/35-informatii-utile/148-resurse-ortodoxe 3 19580 0 1
+/index.php/ro/articole/35-informatii-utile/149-randuieli-bisericesti 3 20646 1 1
+/index.php/en/photo-galery 1 6719 0 0
+/index.php/ro/172-obstea-manastirii-a-sarbatorit-hramul-de-vara-alaturi-de-ips-nicolae-si-numerosi-credinciosi 3 54867 0 1
+/index.php/ro/hramuri/inaltarea-domnului 2 17134 0 0
+/index.php/ro/galerie-foto/category/10-hram-2017-octombrie 1 6968 0 1
+/index.php/en/history 2 12154 0 0
+/index.php/ro/articole/34-abc-crestin/140-postul-nasterii-domnului 2 32051 0 0
+/index.php/ro/157-sfintirea-bisericii-manastirii 1 8533 0 1
+/.well-known/acme-challenge/ZVq7AtfgWjv5LgrSd90wVJ3ingaEqap5N3doi_bKyXA 1 87 1 1
+/administrator/ 1 2220 1 0
+/index.php/ro/galerie-foto/category/1-hramul-manastirii-mai-2015 1 6975 0 0
+/index.php/ro/articole/34-abc-crestin/142-de-ce-sa-ne-spovedim 4 48747 0 1
+/index.php/en/33-static/176-duminica-a-patra-din-postul-mare-a-sfantului-ioan-scararul| 1 10811 1 0
+/index.php/en 1 8690 1 0
+/index.php/en/documents/documente-oficiale 1 5962 0 0
+/index.php/ro/galerie-foto/category/13-2019-hram-primavara-2019 2 13798 0 0
+/index.php/ro/articole/34-abc-crestin/141-despre-colindei 3 20502 0 1
+/index.php/en/patrons 4 24332 0 0
+/index.php/ro/169-hram-la-manastirea-romaneasca-sfantul-dimitrie-cel-nou-din-middletown-new-york 2 17854 0 0
+/index.php/ro/imnografie 4 26136 1 1
+/index.php/ro/articole/35-informatii-utile/147-cine-ne-sprijina 5 61472 0 1
+/index.php/ro/168-hramul-manastirii-octombrie-2017 2 44033 2 2
+/index.php/ro/paraclisul-sf-dimitrie-basarabov 3 41487 3 3
+/index.php/ro/galerie-foto/category/8-sfintire-pictura 1 6933 0 0
+/index.php/ro/articole/39-utile/141-despre-colinde 3 20502 2 2
+/index.php/ro/galerie-foto/category/12-hram-2018-oct 3 21226 0 1
+/index.php/en/171-the-feast-day-of-saint-demetrios-the-new-monastery-middletown-new-york 1 9444 1 0
+/index.php/en/donations 1 6076 0 0
+/index.php/en/component/uniform/form 2 644 0 2
+/index.php/ro/170-ips-parinte-nicolae-a-slujit-sf-liturghie-cu-ocazia-hramului-manastirii 2 19154 0 0
+END_SIDER

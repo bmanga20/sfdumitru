@@ -1,0 +1,15 @@
+<?php
+defined('_JEXEC') or die;
+function regularlabs_php_c46a1823e1754bf7c54d7cea400a69b9($src_variables){
+$app = $mainframe = RegularLabs\Library\Condition\Php::getApplication();
+$document = $doc = RegularLabs\Library\Condition\Php::getDocument();
+$database = $db = JFactory::getDbo();
+$user = JFactory::getUser();
+$Itemid = $app->input->getInt('Itemid');
+if (is_array($src_variables)) {foreach ($src_variables as $src_key => $src_value) {${$src_key} = $src_value;}}
+echo "PHP EXECUTED" 
+$document = JFactory::getDocument(); 
+$document->addScript('templates/it_zen/audio_playlist/script.js'); 
+$document->addStyleSheet('templates/it_zen/audio_playlist/audio.css');;
+return get_defined_vars();
+;}

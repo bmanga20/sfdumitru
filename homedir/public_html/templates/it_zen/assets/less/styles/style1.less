@@ -1,0 +1,617 @@
+/* 
+DO NOT DELETE THIS LINE
+Necessary to check if StyleSheet has loaded  */
+#dummy-element{width:2px;} 
+
+// Core variables and mixins
+@import "../../../../../media/jui/less/variables.less";
+@import "../../../../../media/jui/less/mixins.less";
+
+/* Import LESS variables and mixins files */
+@import "../vars.less";
+
+
+/*********************************************************************************/
+/* LESS VARIABLES */
+/*********************************************************************************/
+
+@bg_light:				#F1F2EB;
+@bg_primary:			#81AC00;	
+@bg_secondary:			#5B7A00;	
+
+
+/* Typography 
+---------------*/
+.btn.icebtn,
+p.readmore a.btn {
+	border-color: lighten(@bg_primary,0%);
+}
+@-webkit-keyframes BTN {
+ 0%   { border-color: lighten(@bg_primary,0%); }
+ 50% { border-color:  darken(@bg_primary,12%); }
+ 100% { border-color: lighten(@bg_primary,0%); }
+}
+@-moz-keyframes BTN  {
+ 0%   { border-color: lighten(@bg_primary,0%); }
+ 50% { border-color:  darken(@bg_primary,12%); }
+ 100% { border-color: lighten(@bg_primary,0%); }
+}
+@-o-keyframes BTN  {
+ 0%   { border-color: lighten(@bg_primary,0%); }
+ 50% { border-color:  darken(@bg_primary,12%); }
+ 100% { border-color: lighten(@bg_primary,0%); }
+}
+@keyframes BTN  {
+ 0%   { border-color: lighten(@bg_primary,0%); }
+ 50% { border-color:  darken(@bg_primary,12%); }
+ 100% { border-color: lighten(@bg_primary,0%); }
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+	border-color: lighten(@bg_primary,0%);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px lighten(@bg_primary,45%);
+}
+.tooltip {
+	&.bottom .tooltip-arrow { 
+		border-bottom-color:lighten(@bg_primary,0%);
+	}
+	&.bottom .tooltip-arrow {
+		 border-bottom-color:lighten(@bg_primary,0%);
+	}
+	&.top .tooltip-arrow    { 
+		border-top-color:lighten(@bg_primary,0%);
+	}
+	&.left .tooltip-arrow   { 
+		border-left-color:lighten(@bg_primary,0%);
+	}
+	&.right .tooltip-arrow  { 
+		border-right-color:lighten(@bg_secondary,0%);
+	}
+	.tooltip-inner {
+		background:lighten(@bg_primary,0%);
+	}
+}
+hr.sep {
+	#gradient .radial (darken(@bg_light,20%), #fff );
+}
+.highlight {
+	color: darken(@bg_primary,10%);
+}
+
+/* Joomla 
+----------*/
+ul.category-module {
+	li {
+		span.mod-articles-category-date-short {
+			border: 1px solid darken(@bg_light,18%);
+		}
+	}
+}
+ul.categories-module {
+	li {
+		border-bottom:1px dotted darken(@bg_light,10%);
+		&.active {
+			a {
+				color:darken(@bg_primary,5%);
+				background-color:darken(@bg_light,4%);
+			}
+		}
+	}
+}
+.newsflash-carousel {
+	ol.flex-control-nav {
+		li {
+			a {
+				&.flex-active {
+					background:lighten(@bg_primary,10%);
+				}
+			}
+		}
+	}
+}
+body.contentpane {
+	.mailto-close a {
+		background:@bg_primary url(../../images/system/icon_close.png) no-repeat center;
+		&:hover {
+			background-color:lighten(@bg_primary,15%);
+		}
+	}
+}
+
+/* Extras 
+-----------*/
+#responsivebar-inner {
+	.moduletable {
+		> h3 {
+			&:before{
+				background: @bg_primary;
+			}
+		}
+	}
+}
+div#mobile-btn a.btn-navbar {
+	&:focus,
+	&:hover {
+		.icon-bar { 
+		  background-color: darken(@bg_primary,15%);
+		  border-bottom-color:darken(@bg_primary,15%);
+		}
+	}				
+}
+body .rssocial-icons { 
+	.rssocial-link {
+		border: 1px solid darken(@bg_light,15%);
+		&:hover {
+			
+			[class^="rssocial-icon-"]:before,
+			[class*=" rssocial-icon-"]:before {
+				color:lighten(@bg_primary,10%)!important;
+			}
+		}
+	}
+}
+img.artsexylightbox {
+	border:1px solid darken(@bg_light,10%);	
+	&:hover {
+		border-color:lighten(@bg_primary,5%);	
+	}
+}
+.scdp-wrapper-center {
+	.scdp-text-vert {
+		text-shadow:1px 1px 1px darken(@bg_primary,10%);
+	}
+}
+.blog,
+.blog-featured {
+	.item-image {
+		a > div.rollover {
+			> div {
+				border:1px solid lighten(@bg_primary,10%);
+				&:before {
+					background-color: lighten(@bg_primary,10%);
+				}
+				&:after {
+					background-color: lighten(@bg_primary,10%);
+				}	
+			}
+		}
+	}
+	.item {
+		&:hover .it_caption {
+			.hexBackgroundToRGBA(darken(@bg_primary,5%),.9);
+		}
+	}
+}
+#before_content{
+	background: @bg_light;
+}
+
+#slideshow {
+	.camera_pag {
+		ul {
+			li {
+				&:hover {
+					background:lighten(@bg_primary,5%);	
+				}		
+				&.cameracurrent {
+					background:lighten(@bg_primary,5%);					
+				}
+			}
+		}
+	}
+}
+#brands-outer {
+	border-bottom: 1px solid darken(@bg_light, 15%);
+}
+#social_tabs {
+	border-bottom:1px solid darken(@bg_light,15%);
+	ul.nav-tabs {
+		background: @bg_light;
+		border-bottom:1px solid darken(@bg_light,10%);
+		li {
+			border-right:1px solid darken(@bg_light,10%);
+			a {
+				&:hover {
+					background:darken(@bg_light,4%);
+				}
+			}
+			&.active {
+				a {
+					background:@bg_primary;
+					text-shadow:1px 1px 1px darken(@bg_primary,10%);
+				}
+			}			
+		}	
+	}
+	.accordion-heading .accordion-toggle {
+		background:darken(@bg_light,5%);
+	}
+}
+.category-module.owl-carousel {
+	&.owl-theme .owl-controls {
+		.owl-dots {
+			.owl-dot {
+					span {
+						background: darken(@bg_body, 15%);
+					}
+				&:hover {
+					span{
+						background: darken(@bg_body, 25%);
+					}
+				}
+			}
+			.owl-dot.active   {
+				span {
+					background: darken(@bg_primary, 0%);
+				}
+			}
+		}
+	}
+	.item:hover .item-inner  {
+		.hexBackgroundToRGBA(@bg_primary, .9);
+	}
+}
+body ul#jj_sl_navigation {
+	li {
+		a {
+			background-color:@bg_primary!important;
+			&:hover {
+				background-color:lighten(@bg_primary,10%)!important;
+			}
+		}
+	}
+}
+#testimonials {
+	blockquote {
+		&:before,
+		&:after {
+			color:lighten(@bg_primary,0%);
+		}
+	}
+	&.owl-theme .owl-controls {
+		.owl-page span{
+			background: darken(@bg_body, 10%);
+		}
+		.owl-page.active span {
+			background: darken(@bg_primary, 0%);
+		}
+	}
+}
+#pageslide {
+	.close {
+		background: @bg_primary;
+		&:hover {
+			background: lighten(@bg_primary,5%);
+		}
+	}		
+}
+#gotop {
+	.scrollup {
+		.hexBackgroundToRGBA(@bg_primary, .75);
+	}
+	
+	&.gotop_active .scrollup {
+		&:hover {
+			.hexBackgroundToRGBA(@bg_primary, .9);
+		}	
+	}
+}
+p#icelogo { 
+	a {
+		background:url("../../images/styles/style1/icetheme.png") no-repeat;
+	}
+}
+body.page-about {
+	.page-team {
+		ul {
+			li {
+				a {
+					&:hover {
+						color:@bg_primary;
+					
+					}
+				}
+			}
+		}
+	}	
+}
+body.page-contact {
+	ul.icesocialblock {
+		li {
+			a {
+				&:hover {
+					color:@bg_primary;
+				
+				}
+			}
+		}
+	}
+}
+body.page-pricing {
+	div.pricing-table {
+		.pricing-table-header {
+			#gradient .vertical(lighten(@bg_primary,5%),lighten(@bg_primary,0%));	
+		}
+		.pricing-table-footer {
+			border-top:1px dotted lighten(@grayLight,20%);	
+		}
+	}
+}
+.portfolio-listpage-portfolio {
+	.projects-filter {
+		ul {
+			li {
+				a:link,
+				a:visited {
+					&.selected,
+					&.selected:hover {
+						background:lighten(@bg_primary,5%);
+					}
+				}
+			}
+		}
+	}
+}
+.item-pagepage-portfolio {
+	.project-nav {
+		a {
+			background-color:lighten(@bg_primary,10%);
+			&:hover {
+				background-color:lighten(@bg_primary,20%);
+			}
+		}
+	}
+	.project-wrapper .flex-direction-nav li a {
+		background-color:lighten(@bg_primary,10%);
+		&:hover {
+			background-color:lighten(@bg_primary,20%);
+		}
+	}
+}
+body.offline_page,
+body.error_page {
+	background:@bg_light;
+	#content_page {
+		border: 1px solid darken(@bg_light, 10%);	
+	}
+}
+body.offline_page {
+	#offline_social {
+		ul {
+			li {
+				a {
+					&:hover {
+						color:@bg_primary;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Layout
+*-----------------*/
+#topbar {
+	background:@bg_light;
+	border-bottom:1px solid darken(@bg_light,5%);
+}
+#header {
+	&.no_slideshow {
+		border-bottom:5px solid lighten(@bg_primary,0%);
+	}
+}
+#content {
+	#sidebar {
+		.sidebar_module {
+			background:@bg_light;
+			.sidebar_module_heading {
+				&:before{
+					background: @bg_primary;
+				}
+			}
+			&.sidebar_module_style-1 {
+				background: @bg_primary;
+				.sidebar_module_heading {
+					text-shadow:1px 1px 1px darken(@bg_primary,10%);
+					&:before {
+						background: lighten(@bg_primary,15%);	
+					}
+				}
+				.sidebar_module_content {
+					.btn.icebtn {
+						border-color: lighten(@bg_primary,20%);
+					}
+				}
+			}
+			&.sidebar_module_style-2 {
+				background: @bg_secondary;
+				.sidebar_module_heading {
+					text-shadow:1px 1px 1px darken(@bg_secondary,10%);
+					&:before {
+						background: lighten(@bg_secondary,15%);	
+					}
+				}
+				.sidebar_module_content {
+					.btn.icebtn {
+						border-color: lighten(@bg_secondary,15%);	
+					}
+				}
+			}
+			ul.menu li {
+				a {
+					border-bottom:1px dotted darken(@bg_light,15%);
+					&:hover {
+						background:darken(@bg_light,5%);
+					}
+				}
+				&.active a {
+					background:darken(@bg_light,5%);
+				}
+			}
+		}
+	}	
+}
+@-webkit-keyframes STYLE1 {
+ 0%   { border-color: lighten(@bg_primary,20%); }
+ 50% { border-color:  lighten(@bg_primary,60%); }
+ 100% { border-color: lighten(@bg_primary,20%); }
+}
+@-moz-keyframes STYLE1  {
+ 0%   { border-color: lighten(@bg_primary,20%); }
+ 50% { border-color:  lighten(@bg_primary,60%); }
+ 100% { border-color: lighten(@bg_primary,20%); }
+}
+@-o-keyframes STYLE1  {
+   0%   { border-color: lighten(@bg_primary,20%); }
+ 50% { border-color:  lighten(@bg_primary,60%); }
+ 100% { border-color: lighten(@bg_primary,20%); }
+}
+@keyframes STYLE1  {
+   0%   { border-color: lighten(@bg_primary,20%); }
+ 50% { border-color:  lighten(@bg_primary,60%); }
+ 100% { border-color: lighten(@bg_primary,20%); }
+}
+
+@-webkit-keyframes STYLE2 {
+ 0%   { border-color: lighten(@bg_secondary,15%); }
+ 50% { border-color:  lighten(@bg_secondary,50%); }
+ 100% { border-color: lighten(@bg_secondary,15%); }
+}
+@-moz-keyframes STYLE2  {
+ 0%   { border-color: lighten(@bg_secondary,15%); }
+ 50% { border-color:  lighten(@bg_secondary,50%); }
+ 100% { border-color: lighten(@bg_secondary,15%); }
+}
+@-o-keyframes STYLE2  {
+   0%   { border-color: lighten(@bg_secondary,15%); }
+ 50% { border-color:  lighten(@bg_secondary,50%); }
+ 100% { border-color: lighten(@bg_secondary,15%); }
+}
+@keyframes STYLE2  {
+   0%   { border-color: lighten(@bg_secondary,15%); }
+ 50% { border-color:  lighten(@bg_secondary,50%); }
+ 100% { border-color: lighten(@bg_secondary,15%); }
+}
+#promo {
+	.moduletable {
+		.moduletable_heading {
+			&:before{
+				background: @bg_primary;
+			}
+		}
+	}
+}
+#showcase {
+	background-color:@bg_light;
+	#showcase-modules {
+		.moduletable {
+			.moduletable_heading {
+				&:before{
+					background: @bg_primary;
+				}
+			}
+		}
+	}
+}
+#footer {
+	&:before {
+		#gradient.vertical(@bg_light, @bg_body);
+	}
+	.moduletable {
+		.moduletable_heading {
+			&:before{
+				background: @bg_primary;
+			}
+		}
+	}
+}
+
+/* MainMenu
+/**************/
+#mainmenu {
+	.navbar-inner {
+		ul.nav {
+			> li {
+				> a {
+					.caret {
+						border-top-color:darken(@bg_light,25%);
+						border-bottom-color: darken(@bg_light,25%);
+					}
+					&:hover {
+						text-shadow:none;
+						color:darken(@bg_primary,10%);
+					}
+				}
+				&.active {
+					> a	{
+						color:darken(@bg_primary,10%);
+					}
+				}	
+				&.dropdown.open > a	{
+					color:darken(@bg_primary,10%);
+					.caret {
+						border-top-color:darken(@bg_primary,0%);
+						border-bottom-color: darken(@bg_primary,0%)
+					}
+				}	
+			}
+		}
+	}
+	ul.dropdown-menu {
+		background:@bg_body;
+		> li {
+			> a {
+				&:hover,
+				&:focus {
+					color:darken(@bg_primary,10%);
+				}
+			}
+			&.active > a {
+				background:darken(@bg_light,0%);
+				color:darken(@bg_primary,10%);
+			}
+		}
+		.divider {
+			background: darken(@bg_primary,10%);
+			border-bottom-color:lighten(@bg_primary,10%);
+		}
+		
+		.nav-header {
+			border-bottom:1px dotted darken(@bg_light,15%);
+		}
+	}
+	li.dropdown-submenu {	
+		&:hover > a {
+			color:darken(@bg_primary,10%);	
+		}
+		> a:after {
+			border-left-color:darken(@bg_light,25%);
+		}
+	}
+}
+#pageslide #responsivebar-inner {
+	ul.menu {
+		border-top:1px dotted darken(@bg_light,15%);
+		> li {
+			border-bottom:1px dotted darken(@bg_light,15%);
+			> a {	
+				&:hover {
+					background-color:darken(@bg_light,0%);	
+				}
+			}
+			&.active {
+				> a	{
+					color:darken(@bg_primary,15%);
+					background-color:darken(@bg_light,0%);
+				}
+			}
+		}
+	}
+}
+
+/* Responsive part
+/******************/
+@media @phone {
+	#slideshow {
+		background:@bg_light;
+	}
+}

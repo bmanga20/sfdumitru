@@ -1,0 +1,297 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202002 will be lost/reset.
+# Last config file used to build this data file was /home/sfdumitru/tmp/awstats/awstats.sfdumitru.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2688                
+POS_VISITOR 7795                
+POS_DAY 7949                
+POS_DOMAIN 3316                
+POS_LOGIN 3539                
+POS_ROBOT 3694                
+POS_WORMS 4445                
+POS_EMAILSENDER 4576                
+POS_EMAILRECEIVER 4719                
+POS_SESSION 8062                
+POS_SIDER 8208                
+POS_FILETYPES 4854                
+POS_DOWNLOADS 4960                
+POS_OS 5008                
+POS_BROWSER 5095                
+POS_SCREENSIZE 5205                
+POS_UNKNOWNREFERER 5279                
+POS_UNKNOWNREFERERBROWSER 5436                
+POS_ORIGIN 5518                
+POS_SEREFERRALS 5648                
+POS_PAGEREFS 5792                
+POS_SEARCHWORDS 5940                
+POS_KEYWORDS 6092                
+POS_MISC 2352                
+POS_ERRORS 6151                
+POS_CLUSTER 3395                
+POS_SIDER_404 6257                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200301002448 11 2295 9189974790890
+FirstTime 20200201112214
+LastTime 20200201112214
+LastUpdate 20200301140643 11 0 10 0 0
+TotalVisits 1                   
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 7 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 211 239 74879
+1 0 0 0 63 70 15248
+2 0 0 0 87 99 32064
+3 0 1 1905 39 53 11765
+4 0 0 0 38 51 17400
+5 0 0 0 48 64 20527
+6 0 0 0 27 32 5317
+7 0 0 0 36 58 18291
+8 0 0 0 35 104 49125
+9 0 0 0 42 56 14675
+10 0 0 0 31 36 7044
+11 1 1 53 63 75 22925
+12 0 0 0 44 55 11999
+13 0 0 0 45 54 15486
+14 0 0 0 38 50 12005
+15 0 0 0 45 63 20047
+16 0 0 0 41 51 11496
+17 0 0 0 75 87 33367
+18 0 0 0 39 55 19564
+19 0 0 0 36 46 11527
+20 0 0 0 35 42 8921
+21 0 0 0 29 38 10861
+22 0 0 0 40 53 14490
+23 0 1 178 40 69 134841
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 1 3 2136
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+msnbot/ 50 20350 20200228223942 50
+AhrefsBot/ 49 20055 20200229230422 49
+Googlebot/ 37 19855 20200229082712 33
+bingbot/ 27 10989 20200229015836 27
+bot[\s_+:,\.\;\/\\-] 26 10582 20200227224843 26
+unknown 15 6563 20200226144920 15
+YandexBot/ 10 8650 20200224051849 10
+crawl 9 3663 20200228031605 9
+(firefox/)([0-9]\.|[0-1][0]\.) 5 4325 20200229010451 5
+Applebot/ 4 1628 20200223072533 4
+SemrushBot/ 3 1221 20200225071747 3
+Mail\.RU_Bot/ 2 1730 20200218164238 2
+CCBot/ 1 423 20200214112626 1
+facebookexternalhit/ 1 111132 20200217234818 0
+DotBot/ 1 865 20200223110345 1
+Sogou[\x20]web[\x20]spider/ 1 865 20200207233924 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 1 53 0 0
+js 1 1905 0 0
+css 1 178 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+win10 2 0
+Unknown 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+chrome80.0.3987.116 1 0
+chrome76.0.3809.100 1 0
+mozilla 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20200201112214
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1 3
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 1237 287298
+404 110 77660
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 44
+/bitcoin/ 1 -
+/wordpress/wp-admin/ 1 http://sfdumitru.org/
+/bitcoin/backup/wallet.dat 1 -
+/itropolia.us/index.php/ro/ierarhi/mitropolit/biografia 1 -
+/backup/bitcoin/ 1 -
+/apple-touch-icon.png 4 -
+/old/wp-admin/ 1 http://sfdumitru.org/
+/wallet/ 1 -
+/contact.html 4 -
+/evenimente-2007.html 2 -
+/.aws/credentials 7 -
+/ads.txt 26 -
+/OLD/ 1 http://sfdumitru.org/
+/temp/wallet.dat 1 -
+/blog/wp-json/ 1 -
+/apple-touch-icon-152x152-precomposed.png 2 -
+/wp-json/wp/v2/users 1 http://www.sfdumitru.org/wp-json/wp/v2/users
+/sitemap.html 3 -
+/temp/bitcoin/wallet.dat 1 -
+/blog/ 1 http://sfdumitru.org/
+/staging/ 1 http://sfdumitru.org/
+/dev/ 1 http://sfdumitru.org/
+/google35cb65e84c359a8b.html 1 -
+/backup/bitcoin/wallet.dat 1 -
+/test/wp-admin/ 1 http://sfdumitru.org/
+/backup/wallet.dat 1 -
+/abc-ul_crestin.html 6 -
+/wp-login.php 2 -
+/.bitcoin/wallet.dat 1 -
+/layouts/joomla/sidebars/beautifu.php 1 http://site.ru
+/donatorii.html 3 -
+/bitcoin/wallet.dat 1 -
+/component/kide/ 1 -
+/apple-touch-icon-precomposed.png 4 -
+/wp-json/ 1 -
+/wp/ 1 http://sfdumitru.org/
+/wallet.dat 1 -
+/apple-touch-icon-152x152.png 2 -
+/urllist.txt 5 -
+/program.html 6 -
+/wallet/wallet.dat 1 -
+/aa.php 1 http://site.ru
+/Vasile_Vasilachi.html 3 -
+/sitemap.xml 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+66.249.89.230 1 1 53 20200201112214
+138.68.70.107 0 1 1905 
+76.169.40.74 0 1 178 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20200201 1 1 53 1
+20200219 0 1 178 0
+20200224 0 1 1905 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/google49dd84c82c958a49.html 1 53 1 1
+END_SIDER
