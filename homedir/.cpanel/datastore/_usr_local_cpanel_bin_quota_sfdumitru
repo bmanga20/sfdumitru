@@ -1,3 +1,0 @@
-dev                      blocks      quota      limit      grace      files      quota      limit      grace
-/dev/mapper/vg_hera-lv_root
-                         762080   10485760   10485760                 20955          0          0           

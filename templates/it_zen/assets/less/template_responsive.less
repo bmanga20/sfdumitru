@@ -1,0 +1,353 @@
+/**********************************************************************************
+
+	@copyright	Copyright (C) 2013 IceTheme. All Rights Reserved
+	@license	Copyrighted Commercial Software 
+	@author     IceTheme (icetheme.com)
+	
+**********************************************************************************/
+
+/* Import LESS variables and mixins files */
+@import "../../../../media/jui/less/variables.less";
+@import "../../../../media/jui/less/mixins.less";
+
+/* Import Template Variables */
+@import "vars.less";
+
+/* Responsive Utilities */
+@import "../../../../media/jui/less/responsive-utilities.less";
+
+// Phones to portrait tablets and narrow desktops
+@import "../../../../media/jui/less/responsive-767px-max.less";
+
+// Tablets to regular desktops
+@import "../../../../media/jui/less/responsive-768px-979px.less";
+
+// Large desktops
+@import "../../../../media/jui/less/responsive-1200px-min.less";
+
+// From 979px and below, show a button to toggle navbar contents
+@import "../../../../media/jui/less/responsive-navbar.less";
+
+// div.modal (instead of .modal)
+@import "../../../../media/jui/less/responsive-767px-max.joomla.less";
+
+
+
+/*********************************************************************************/
+/* DESKTOP XL */
+/*********************************************************************************/
+@media @desktop_xl {
+	
+	#mainmenu .navbar-inner ul.nav > li > a {
+		padding-left:14px;
+		padding-right:14px;
+		font-size:16px;
+	}
+
+}
+
+
+
+/*********************************************************************************/
+/* DESKTOP */
+/*********************************************************************************/
+@media @desktop {
+	
+	/* NORMALLY, THIS PART IS ALREADY DEFINED (WHEN RESPONSIVE IS DISABLED) */
+	
+}
+
+
+
+/*********************************************************************************/
+/* TABLET */
+/*********************************************************************************/
+@media @tablet {
+	
+	#header {
+		
+		#logo {
+			padding-top:10px;
+			padding-bottom:20px;
+		}
+	}
+
+	
+	#content {
+		
+	}
+	
+	.row-fluid {
+		#sidebar.span3 {
+			margin-left: 0;
+			width: 100%;
+		}
+		#middlecol.span9 {
+			width: 100%;
+		}
+	}
+	
+		
+	#slideshow .camera_caption {
+		
+		> div {
+			background: #000;
+			background: rgba(0, 0, 0, 0.8);
+			padding: 6px 0 7px!important;
+		}
+	}
+
+	#slideshow .camera_caption .camera_caption_title {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	
+	#slideshow .camera_caption .camera_caption_desc {
+		font-size: 14px;
+		line-height: 20px;
+		// margin-top: 0;
+	}
+	
+	#slideshow .camera_pag {
+		display:none;
+	}
+	
+	
+	#slideshow .camera_loader {
+		width: 3.5em;
+ 		height: 3.5em;
+		margin: -3.5em 0 0 -3.5em;
+	}
+	
+	#slideshow .camera_prev, 
+	#slideshow .camera_next {
+		// margin-top:-15px;
+		opacity: 1!important;
+		-ms-transform: scale(.75)!important;
+		-webkit-transform: scale(.75)!important;
+		transform: scale(.75)!important;
+	}
+	
+	#slideshow .camera_prev span, 
+	#slideshow .camera_next span {
+		
+	}
+	
+	
+	#showcase {
+		background-position:center center!important;
+
+		#showcase_inner {
+		}
+		
+		#showcase-modules {
+		}
+	
+		#donate-mod h3 {
+			font-size: 22px;
+			line-height: 28px;
+		}
+		
+		#it_tagline  {
+			padding:0;
+			
+			 h3 {
+				font-size: 30px;
+				line-height: 38px;
+				margin-bottom: 5px;
+			 }
+			 
+			 p {
+				font-size: 14px;
+				line-height: 22px;
+			 }
+		}
+	}	
+	
+	#testimonials blockquote {
+		width:100%;
+		padding:0;
+		
+		&:before, 
+		&:after {
+			display:none;
+		}
+	}
+	
+	#testimonials .testimonials_author {
+		padding-top:25px;
+		clear:both;
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+	
+	.row-fluid .span6 #contact-form {
+		
+		&.form-horizontal .controls {
+			display: block;
+			margin-left: 0;
+		}
+		
+		&.form-horizontal .control-label {
+			float: none;
+			width: auto;
+			text-align: left;
+		}
+	}
+	
+
+	ul#jj_sl_navigation {
+		display:none;
+	}
+	
+	
+}
+
+
+/*********************************************************************************/
+/* PHONE */
+/*********************************************************************************/
+@media @phone {
+	
+	#topbar,
+	#showcase,
+	#footer:before {
+		margin-left:-20px;
+		padding-left:20px;
+		margin-right:-20px;
+		padding-right:20px;
+	}
+	
+	#main_wrapper:before {
+		padding-right:20px;
+	}
+	
+	#header {
+		
+	}
+	
+	#slideshow {
+		background:@bg_light;
+		margin-left: -20px;
+  		margin-right: -20px;
+		margin-bottom:30px;
+	}
+	
+	#slideshow .slideshowck {
+		min-height:200px;
+	}
+	
+	#slideshow .slideshowck .camera_caption {
+		// position:relative;
+	}	
+	#slideshow .camera_caption > div {
+		padding: 5px 10px 5px!important;
+	}
+	
+	#slideshow .camera_caption .camera_caption_title {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	
+	#slideshow .camera_caption .camera_caption_desc {
+		display:none;
+	}
+	
+	#slideshow .camera_prev, 
+	#slideshow .camera_next {
+		top:28%;
+	}
+	
+	#content { 
+	
+		#middlecol + #sidebar {
+			padding-top:30px;
+			clear:both;
+		}
+	}
+	
+	.blog .item-image.pull-left, 
+	.blog-featured .item-image.pull-left {
+		float: none;
+		margin-right: 0;
+	}
+	
+	.moduletable {
+		margin-bottom: 25px!important;
+	}
+
+
+	#main_wrapper {
+		padding-bottom:0;
+	}
+	
+	#copyright {
+	}
+	
+	#gotop {
+	}
+	
+	#gotop .scrollup {
+		position: relative;
+		width: auto;
+		border-radius: 0;
+		display: block;
+		margin: 0;
+		left: 0;
+		bottom: 0!important;
+		
+		&:after {
+			width:100%;
+		}
+	}
+	
+	#gotop.gotop_active .scrollup {
+			
+		&:hover {
+		}
+	}
+	
+
+	#pageslide {
+	}
+	
+	
+	.ice_preload .spinner {
+		margin-top:120px;
+	}
+	
+	.nav-collapse {
+		 -webkit-transform:none;
+	 }
+	 
+	 
+	body .blog,
+	body  blog-featured {
+	
+		.item-image.pull-left, 
+		.item-image.pull-right {
+			float: none;
+			text-align: center;
+			margin-left: 0;
+			margin-right: 0;
+			display: inline-block;
+		 }
+	}
+		 
+	 .page-header {
+		 clear:both;
+	 }
+	 
+	blockquote {
+		padding:0;
+		font-size: 20px;
+  		line-height: 34px;
+		
+		&:before,
+		&:after {
+			display:none;			
+		}
+		
+	}	
+}

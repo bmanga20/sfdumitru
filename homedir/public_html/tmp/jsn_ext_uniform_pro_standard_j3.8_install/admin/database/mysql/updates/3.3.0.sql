@@ -1,1 +1,0 @@
-ALTER TABLE `#__jsn_uniform_submissions` ADD `submission_form_location` text NOT NULL;

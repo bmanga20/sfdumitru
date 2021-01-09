@@ -1,0 +1,755 @@
+/***********************************************************************************************/
+/* Joomla Content */
+/***********************************************************************************************/
+
+/* General */
+dl.article-info {
+	display:block;
+	padding:0;
+	font-size: 13px;
+	margin:0 0 15px;
+	font-style:italic;	
+	
+	dl {
+		padding:0;
+		margin:0
+	}
+		
+	dt.article-info-term {
+		display:none;
+	}
+	
+	dd {
+		margin-left:0;
+		margin-right:16px;
+		display: inline-block;
+		
+		[class^="icon-"] {
+			color: darken(@grayLight,0%);
+		}
+		
+		div {
+			display:inline;
+		}
+	}	
+}
+
+.page-header {
+	padding:0;
+	margin:0;
+	border:none;
+}
+
+
+
+/* Blog Layout */
+.blog,
+.blog-featured {
+	
+	.btn-group.pull-right {
+		margin-top: -5px;
+	}
+	
+	/* leading articles */
+	.items-leading {
+		
+		[class*="leading"]{
+			margin-bottom:30px;
+					
+			.page-header h2,
+			.item-title {
+				font-size: 32px;
+				line-height: 40px;
+				margin: 0 0 4px;
+			}
+			
+		}
+	}
+	
+	/* intro articles */
+	.items-row {
+		
+		.item {
+			margin-bottom: 30px;
+				
+			h2 {
+				font-size: 20px;
+				line-height: 28px;
+				margin: 0 0 6px;
+			}
+			
+			dl.article-info {
+				margin-bottom:9px;
+			}
+		}
+		
+		&:last-child .item {
+		}	
+		
+	}
+	
+	.pull-left img{
+		margin:5px 15px 10px 0;
+	}
+	
+	pull-right img {
+		margin:5px 0 10px 15px;
+	}
+	
+}
+
+.btn.dropdown-toggle {
+	color:@text_color;
+}
+
+
+/* Category list */
+.cat-items {
+	
+	.filters {
+		margin-bottom:20px;
+		
+		label {
+			padding-right:10px;
+			vertical-align: middle;
+		}
+	}
+	
+	ul.category {
+		padding:0;
+		margin:0;
+		list-style-type:none;
+		
+		li {
+			border-bottom:1px solid #ccc;
+			box-shadow:0 1px 0 #fff;
+			padding:8px 0;
+			
+			small {
+				color:#888;
+			} 
+		}
+		
+		span.list-hits {
+			margin-top:11px;
+		}
+	}
+	
+	.btn {
+		margin-top:20px;
+	}
+}
+
+
+span.list-edit {
+	margin-right:10px;
+}
+
+
+p.readmore {	
+	
+	a.btn {
+		
+		span.icon-chevron-right { 
+			position: relative;
+			margin-left:-5px;
+			margin-right:6px;
+			.transition();
+			//text-shadow:1px 1px 1px darken(@bg_primary,10%);
+		}
+		
+		&:hover {
+			
+			span.icon-chevron-right {
+				margin-left:-2px;
+				margin-right:3px;
+				//text-shadow:1px 1px 1px darken(@bg_secondary,10%);
+			}
+		}
+		
+	}
+}
+
+	
+/* tags new in joomla 3.1 */
+.tags {
+	 margin: -8px 0 10px;
+	 
+	 span a {
+		text-shadow: none;
+		color:#fff;
+		color:rgba(255,255,255,.75);
+		
+		&:hover {
+			color:#fff;
+		}
+	}
+}
+
+ul.category.list-striped.list-condensed {
+	margin: 0;
+	padding: 0;
+	list-style: none;}
+	
+
+
+/* Content Rating  */
+.content_rating {
+	margin: 0 0 20px;
+}
+
+.item-page .content_rating {
+	margin: 0;
+	float:left;
+	margin-right: 12px;
+	
+}
+
+span.content_vote {
+	display:block;
+	margin: 15px 0;
+	
+	.element-invisible {
+		color:@grayLight;
+		padding-right:7px;
+	}
+	
+	select {
+		width:auto;
+	}	
+	
+}
+
+
+
+/***********************************************************************************************/
+/* Joomla Components  */
+/***********************************************************************************************/
+
+/* Search and SmartSearch modules */
+body .search {
+	display: inline-block!important;
+	position:relative;
+
+	form {
+		margin-bottom:0;
+		
+		label, br {
+			display:none;
+			margin:0;
+		}
+		
+		.inputbox,
+		.input-medium {
+			
+			&:focus {
+			}
+		}
+		
+		.btn {
+			margin-top:0;
+			padding-top:4px;
+			padding-bottom:4px;
+			border-radius:15px;
+			margin-left:4px;
+			
+			&:hover {
+			}
+		} 
+	}
+}
+
+
+body ul.autocompleter-choices {
+}
+
+body ul.autocompleter-choices li.autocompleter-selected {
+}
+
+body ul.autocompleter-choices li.autocompleter-selected span.autocompleter-queried {
+}
+
+
+/* Com Search */		
+#searchForm{ 
+
+	div.phrases-box {
+		margin-bottom: 25px;
+	}
+	
+	div.ordering-box {
+		margin-bottom: 20px;
+	}
+	
+	fieldset.only label {
+	}
+	
+	div.form-limit {
+		margin-bottom: 10px;
+		
+		label { 
+		}
+	}
+}
+		
+		
+dl.search-results {
+	
+	.small {
+		font-size: 12px;
+		font-style: italic;
+		color: #777;
+		padding-bottom: 3px;
+		display: block;
+	}
+	
+	.result-created { 
+		padding-bottom: 30px; 
+		font-size: 12px;
+		text-align: right;
+		color:#999;
+	}
+}
+
+
+
+
+/***********************************************************************************************/
+/* Joomla Module and Plugins  */
+/***********************************************************************************************/
+
+/* Breadcrumbs */
+#breadcrumbs {
+	margin: -5px 0 0;
+	padding: 0;
+	
+	ul.breadcrumb {
+		clear:both;
+		font-size:13px;
+		padding: 0;
+		margin: 0;
+		background:none;
+		
+		li {
+			float:none;
+			padding: 0;
+			margin:0;
+			text-shadow:none;
+			// color:@grayLight;
+			
+			&.active {
+				//color:@grayLight;
+			}
+		}
+		
+		> li >.divider {
+			color:#ccc;
+			padding-right: 12px;
+			padding-left: 12px;
+		}
+	}
+}
+ 
+
+/* Tooltips */
+div.tip-wrap { 
+	padding:10px ;
+	margin-bottom: 2em;
+	font-weight:normal;
+	background: #222;
+	border:1px solid #333;
+	font-size:.9em;
+	color:#ccc;}
+	
+	.tip {
+		.tip-title {
+			color: #fff;
+			font-weight:normal;
+			padding-bottom:3px;
+			font-size:1.5em;
+		}
+		
+		a {
+			color:#408EDA;
+		}
+	}
+ 
+ 
+/* Column menu */
+#columns { 	
+	 ul.nav li {
+		float:none;
+	}
+}
+	
+	
+	
+/* Login Module */
+form#login-form{
+	
+	#form-login-submit {
+		margin:15px 0 20px;
+	}
+}
+
+@media (min-width: 767px) {
+	#loginModal.modal { 
+		width:340px;
+		margin-left:-180px;
+		
+		.modal-body {
+			padding: 15px;
+			width: auto;
+		}
+	}
+}
+
+/* Joomla default pagination */
+.pagination {
+	position:relative;
+	overflow:hidden;
+	padding-top:15px;
+	margin:0;
+	
+	ul {
+		border-left:1px solid #ddd;
+		
+		li {
+			
+			a {
+				color:#999;
+			
+				&:hover {
+					color:#333;
+				}
+			}
+			
+			&.active a{
+				color:#333;
+			}
+			
+			&.disabled { 
+				display:none;
+			}
+		}	
+	}
+	
+	p.counter {  
+		float: right;
+		color: #999;
+		font-style: italic;
+		font-size: 12px;
+		padding-top: 5px;
+		padding-right: 2px;
+		margin:0;
+	}					  
+}
+
+
+/* Latest News */
+ul.latestnews {
+	margin-top:-3px;}
+
+	#sidebar .sidebar_module ul.latestnews li {
+		margin:12px 0;
+		color:rgba(255,255,255,.6);
+		
+		a {
+			color:#fff;
+		}
+	}				
+					
+/* multilanguage */
+.mod-languages {
+	padding-bottom: 15px;
+	
+	li {
+		float: left;
+		margin:0 0 0 8px!important;
+		.transition();
+		
+		a { 
+		
+			img {
+				
+			 }
+		}
+		
+		 &:hover {
+			opacity:1!important;
+		}
+	}	
+}
+
+
+/* contact us */
+.contact { min-height:600px;}
+
+
+/* category module */
+ul.category-module {
+	margin: 0;
+	padding:0;
+	
+	li {
+		list-style-type:none;
+		padding:0 0 0 70px;
+		margin:0 0 15px;
+		position:relative;
+				
+		> a { 
+			font-family:@heading_font;
+			display:block;
+			font-size:14px;
+		}
+		
+		span {
+			font-size:13px; 
+			padding-right:14px; 
+			color:@grayLight;
+			font-style:italic;
+			font-family:Verdana, Geneva, sans-serif;
+			padding: 3px 10px 5px 0;
+			display: inline-block;
+		}
+	
+		span.mod-articles-category-date-short {
+			display:block;
+			font-style:normal;
+			position: absolute;
+			top:5px;
+			left:7px;
+			width: 45px;
+			height: 45px;
+			border-radius:45px;
+			background: #fff;
+			border: 1px solid darken(@bg_light,18%);
+			// color:#fff;
+			padding:0;
+			font-size:16px;
+			font-family:@OpenSans;
+			text-align:center;
+			line-height:30px;
+			.transition();
+			
+			em {
+				padding: 0;
+				display: block;
+				font-family:@OpenSans;
+				font-style:normal;	
+				font-size:14px;
+				color:@grayLight;
+				margin-top: -9px;
+				line-height: normal;		
+			}
+		}
+		
+		&:hover span.mod-articles-category-date-short {
+			
+		}
+	}
+}
+
+/* Categories Module */
+ul.categories-module {
+	margin:0;
+	padding:0;
+	
+	li {
+		list-style-type:none;
+		border-bottom:1px dotted darken(@bg_light,10%);
+		
+		h4 {
+			font-family:@heading_font;	
+			text-transform:uppercase;
+			text-shadow:none;
+			font-size: 15px;
+			padding: 0;
+			margin:0;
+			outline:none;
+			font-weight:300;
+					
+			a {
+				color:@text_color;
+				display:block;
+				padding:8px 0;
+				.transition();
+				
+				&:hover,
+				&:active {
+					text-decoration:none;
+					padding-left:10px;
+				}
+				
+				span {
+					  float: right;
+					  color:@grayLight;
+					  font-size:13px;
+				}
+			}
+			
+		}
+		
+		&.active {
+			margin-left:-15px;
+			margin-right:-15px;
+			
+			a {
+				padding-left:15px;
+				padding-right:15px;
+				color:darken(@bg_primary,5%);
+				background-color:darken(@bg_light,4%);
+					
+				span {
+				}
+			}
+		}
+		
+	}
+}
+
+
+/* newsflash module */
+div.newsflash {
+	margin: 0;
+	padding:0;
+	
+	.newsflash-title {
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 26px;
+		margin-bottom: 5px;
+	
+	}
+	
+	.btn {
+		margin-bottom:20px;
+	}
+}
+
+/* newsflash module (carousel) */
+.newsflash-carousel {
+	padding-bottom:40px;
+	
+	.newsflash-carousel-item {
+		
+		img {
+			.transition();
+			width: 100px;
+		}
+		
+		a:hover img {
+			opacity:.7;
+		}
+	
+	}
+	
+	ol.flex-control-nav {
+		bottom:0;
+		
+		li {
+			margin:0;
+		
+			a {
+				background: #d6d6d6;
+				width: 13px;
+				height: 13px;
+				border: none;
+				border-radius: 13px;
+				cursor: pointer;
+				margin: 0 4px;
+				box-shadow: none;
+				.transition();
+				
+				&:hover {
+					background:darken(#d6d6d6,7%);
+				}
+				
+				&.flex-active {
+					background:lighten(@bg_primary,10%);
+				}
+			}
+		}
+	
+	}
+}
+
+
+
+
+/* Banner Module */
+/* #banner_area{
+	padding: 0 0 60px 0;
+	
+	.bannergroup {
+		
+		.banneritem {
+			.transition();	
+				
+			&:hover {
+				.translate(0,-2px);
+			}
+		}	
+	}
+} */
+
+.article-banner {
+	text-align: center;
+	.banneritem {
+		margin: 0 0 30px 0;
+	}
+}
+
+/* Print and Email default joomla pages */
+body.contentpane {
+	padding: 20px;
+	background:#fff;	
+	
+	#pop-print {
+		position:absolute;
+		top:20px;
+		right:20px;
+		
+		a {
+			
+			&:hover {
+				text-decoration:none;
+			}
+		}
+	}
+	
+	#mailto-window {
+		
+		button {
+			margin-top:10px;
+		}
+	}
+	
+	.mailto-close a {
+		background:@bg_primary url(../images/system/icon_close.png) no-repeat center;
+		font-size: 20px;
+		font-weight: normal;
+		line-height: 20px;
+		color: #fff;
+		text-shadow: none;
+		opacity: 1;
+		text-decoration: none;
+		position: absolute;
+		top: 10px;
+		right: 6px;
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+		text-align: center;
+		
+		span {
+			display:none;
+		}
+		
+		&:hover {
+			background-color:lighten(@bg_primary,15%);
+		}
+	}
+}
+
+
