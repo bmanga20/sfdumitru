@@ -69,7 +69,7 @@ $output = '<html>
 		</style>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script type="text/javascript">jQuery.noConflict();</script>
-		<script src="http://api.html5media.info/1.1.5/html5media.min.js"></script>
+		<script src="https://api.html5media.info/1.1.5/html5media.min.js"></script>
 	</head>
 	<body>
 		<video controls="controls"'.$auto.' poster="'.$poster.'" id="vb_HTML5_video" style="display: block; background: #000; width: 100%; height: 100%">

@@ -25,7 +25,7 @@ class plgSystemVideobox extends JPlugin
 			if($this->params->get('loadjq')=='1'){
 				$document->addCustomTag('<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script type="text/javascript">jQuery.noConflict();</script>');
 			}
-			$document->addCustomTag('<script src="http://api.html5media.info/1.1.5/html5media.min.js"></script><script type="text/javascript" src="'.JURI::root().'/plugins/system/videobox/videobox.js"></script><script type="text/javascript">
+			$document->addCustomTag('<script src="https://api.html5media.info/1.1.5/html5media.min.js"></script><script type="text/javascript" src="'.JURI::root().'/plugins/system/videobox/videobox.js"></script><script type="text/javascript">
 				var displayvideo;
 				var vb_site_base = "'.JPATH_BASE.'/";
 				var vb_site_root = "'.JURI::root().'";
