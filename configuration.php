@@ -13,9 +13,9 @@ class JConfig {
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
-	public $user = 'sfdumitr_mrvs';
+	public $user = 'u309419442_sfdumitru';
 	public $password = '=}nOct4?)DAc';
-	public $db = 'sfdumitr_mrvs';
+	public $db = 'u309419442_sfdumitr_mrvs';
 	public $dbprefix = 'jiqtf_';
 	public $live_site = '';
 	public $secret = 'lhuqIypKQMAsRTMm';
@@ -53,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/home/sfdumitru/public_html/logs';
-	public $tmp_path = '/home/sfdumitru/public_html/tmp';
+	public $log_path = '/domains/sfdumitru.org/home/logs';
+	public $tmp_path = '/domains/sfdumitru.org/home/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $memcache_persist = '1';
